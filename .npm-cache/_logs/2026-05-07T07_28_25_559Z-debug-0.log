@@ -1,0 +1,1177 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Administrator\project\myhub\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install gray-matter next-mdx-remote
+8 verbose argv "install" "gray-matter" "next-mdx-remote" "--legacy-peer-deps" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:c:\Users\Administrator\project\myhub\.npm-cache\_logs\2026-05-07T07_28_25_559Z-
+10 verbose logfile c:\Users\Administrator\project\myhub\.npm-cache\_logs\2026-05-07T07_28_25_559Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest gray-matter@*
+15 silly packumentCache full:https://registry.npmjs.org/gray-matter cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/gray-matter 938ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/gray-matter set size:undefined disposed:false
+18 silly fetch manifest next-mdx-remote@*
+19 silly packumentCache full:https://registry.npmjs.org/next-mdx-remote cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/next-mdx-remote 307ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/next-mdx-remote set size:undefined disposed:false
+22 silly placeDep ROOT gray-matter@4.0.3 OK for: myhub@0.1.0 want: *
+23 silly placeDep ROOT next-mdx-remote@6.0.0 OK for: myhub@0.1.0 want: *
+24 silly fetch manifest js-yaml@^3.13.1
+25 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+26 silly fetch manifest kind-of@^6.0.2
+27 silly packumentCache full:https://registry.npmjs.org/kind-of cache-miss
+28 silly fetch manifest section-matter@^1.0.0
+29 silly packumentCache full:https://registry.npmjs.org/section-matter cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/npm 1593ms
+31 http fetch GET 200 https://registry.npmjs.org/js-yaml 286ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+33 silly fetch manifest strip-bom-string@^1.0.0
+34 silly packumentCache full:https://registry.npmjs.org/strip-bom-string cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/strip-bom-string 219ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/strip-bom-string set size:undefined disposed:false
+37 silly fetch manifest @babel/code-frame@^7.23.5
+38 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 294ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/@babel%2fcode-frame set size:undefined disposed:false
+41 silly fetch manifest @mdx-js/mdx@^3.0.1
+42 silly packumentCache full:https://registry.npmjs.org/@mdx-js%2fmdx cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/section-matter 927ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/section-matter set size:undefined disposed:false
+45 silly fetch manifest @mdx-js/react@^3.0.1
+46 silly packumentCache full:https://registry.npmjs.org/@mdx-js%2freact cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/kind-of 970ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/kind-of set size:undefined disposed:false
+49 silly fetch manifest unist-util-remove@^4.0.0
+50 silly packumentCache full:https://registry.npmjs.org/unist-util-remove cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/@mdx-js%2fmdx 338ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/@mdx-js%2fmdx set size:undefined disposed:false
+53 silly fetch manifest unist-util-visit@^5.1.0
+54 silly packumentCache full:https://registry.npmjs.org/unist-util-visit cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/unist-util-remove 266ms (cache miss)
+56 silly packumentCache full:https://registry.npmjs.org/unist-util-remove set size:undefined disposed:false
+57 silly fetch manifest vfile@^6.0.1
+58 silly packumentCache full:https://registry.npmjs.org/vfile cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/@mdx-js%2freact 392ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/@mdx-js%2freact set size:undefined disposed:false
+61 silly fetch manifest vfile-matter@^5.0.0
+62 silly packumentCache full:https://registry.npmjs.org/vfile-matter cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/unist-util-visit 291ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/unist-util-visit set size:undefined disposed:false
+65 http fetch GET 200 https://registry.npmjs.org/vfile 272ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/vfile set size:undefined disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/vfile-matter 509ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/vfile-matter set size:undefined disposed:false
+69 silly placeDep node_modules/gray-matter js-yaml@3.14.2 OK for: gray-matter@4.0.3 want: ^3.13.1
+70 silly placeDep ROOT kind-of@6.0.3 OK for: gray-matter@4.0.3 want: ^6.0.2
+71 silly placeDep ROOT section-matter@1.0.0 OK for: gray-matter@4.0.3 want: ^1.0.0
+72 silly placeDep ROOT strip-bom-string@1.0.0 OK for: gray-matter@4.0.3 want: ^1.0.0
+73 silly fetch manifest esprima@^4.0.0
+74 silly packumentCache full:https://registry.npmjs.org/esprima cache-miss
+75 silly fetch manifest argparse@^1.0.7
+76 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+77 silly fetch manifest extend-shallow@^2.0.1
+78 silly packumentCache full:https://registry.npmjs.org/extend-shallow cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/extend-shallow 277ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/extend-shallow set size:undefined disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/argparse 314ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/argparse set size:undefined disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/esprima 317ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/esprima set size:undefined disposed:false
+85 silly placeDep ROOT @babel/code-frame@7.29.0 OK for: next-mdx-remote@6.0.0 want: ^7.23.5
+86 silly placeDep ROOT @mdx-js/mdx@3.1.1 OK for: next-mdx-remote@6.0.0 want: ^3.0.1
+87 silly placeDep ROOT @mdx-js/react@3.1.1 OK for: next-mdx-remote@6.0.0 want: ^3.0.1
+88 silly placeDep ROOT unist-util-remove@4.0.0 OK for: next-mdx-remote@6.0.0 want: ^4.0.0
+89 silly placeDep ROOT unist-util-visit@5.1.0 OK for: next-mdx-remote@6.0.0 want: ^5.1.0
+90 silly placeDep ROOT vfile@6.0.3 OK for: next-mdx-remote@6.0.0 want: ^6.0.1
+91 silly placeDep ROOT vfile-matter@5.0.1 OK for: next-mdx-remote@6.0.0 want: ^5.0.0
+92 silly fetch manifest @babel/helper-validator-identifier@^7.28.5
+93 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier cache-miss
+94 silly fetch manifest @types/estree@^1.0.0
+95 silly packumentCache full:https://registry.npmjs.org/@types%2festree cache-miss
+96 silly fetch manifest @types/estree-jsx@^1.0.0
+97 silly packumentCache full:https://registry.npmjs.org/@types%2festree-jsx cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/@types%2festree 242ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@types%2festree set size:undefined disposed:false
+100 silly fetch manifest @types/hast@^3.0.0
+101 silly packumentCache full:https://registry.npmjs.org/@types%2fhast cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/@types%2festree-jsx 254ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/@types%2festree-jsx set size:undefined disposed:false
+104 silly fetch manifest @types/mdx@^2.0.0
+105 silly packumentCache full:https://registry.npmjs.org/@types%2fmdx cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 280ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier set size:undefined disposed:false
+108 silly fetch manifest collapse-white-space@^2.0.0
+109 silly packumentCache full:https://registry.npmjs.org/collapse-white-space cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/@types%2fhast 280ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@types%2fhast set size:undefined disposed:false
+112 silly fetch manifest devlop@^1.0.0
+113 silly packumentCache full:https://registry.npmjs.org/devlop cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/@types%2fmdx 276ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/@types%2fmdx set size:undefined disposed:false
+116 silly fetch manifest estree-util-is-identifier-name@^3.0.0
+117 silly packumentCache full:https://registry.npmjs.org/estree-util-is-identifier-name cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/collapse-white-space 258ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/collapse-white-space set size:undefined disposed:false
+120 silly fetch manifest estree-util-scope@^1.0.0
+121 silly packumentCache full:https://registry.npmjs.org/estree-util-scope cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/estree-util-scope 254ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/estree-util-scope set size:undefined disposed:false
+124 silly fetch manifest estree-walker@^3.0.0
+125 silly packumentCache full:https://registry.npmjs.org/estree-walker cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/estree-util-is-identifier-name 269ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/estree-util-is-identifier-name set size:undefined disposed:false
+128 silly fetch manifest hast-util-to-jsx-runtime@^2.0.0
+129 silly packumentCache full:https://registry.npmjs.org/hast-util-to-jsx-runtime cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/devlop 291ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/devlop set size:undefined disposed:false
+132 silly fetch manifest markdown-extensions@^2.0.0
+133 silly packumentCache full:https://registry.npmjs.org/markdown-extensions cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/hast-util-to-jsx-runtime 258ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/hast-util-to-jsx-runtime set size:undefined disposed:false
+136 silly fetch manifest recma-build-jsx@^1.0.0
+137 silly packumentCache full:https://registry.npmjs.org/recma-build-jsx cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/estree-walker 281ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/estree-walker set size:undefined disposed:false
+140 silly fetch manifest recma-jsx@^1.0.0
+141 silly packumentCache full:https://registry.npmjs.org/recma-jsx cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/markdown-extensions 265ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/markdown-extensions set size:undefined disposed:false
+144 silly fetch manifest recma-stringify@^1.0.0
+145 silly packumentCache full:https://registry.npmjs.org/recma-stringify cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/recma-jsx 224ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/recma-jsx set size:undefined disposed:false
+148 silly fetch manifest rehype-recma@^1.0.0
+149 silly packumentCache full:https://registry.npmjs.org/rehype-recma cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/recma-build-jsx 260ms (cache miss)
+151 silly packumentCache full:https://registry.npmjs.org/recma-build-jsx set size:undefined disposed:false
+152 silly fetch manifest remark-mdx@^3.0.0
+153 silly packumentCache full:https://registry.npmjs.org/remark-mdx cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/recma-stringify 246ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/recma-stringify set size:undefined disposed:false
+156 silly fetch manifest remark-parse@^11.0.0
+157 silly packumentCache full:https://registry.npmjs.org/remark-parse cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/rehype-recma 281ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/rehype-recma set size:undefined disposed:false
+160 silly fetch manifest remark-rehype@^11.0.0
+161 silly packumentCache full:https://registry.npmjs.org/remark-rehype cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/remark-parse 288ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/remark-parse set size:undefined disposed:false
+164 silly fetch manifest source-map@^0.7.0
+165 silly packumentCache full:https://registry.npmjs.org/source-map cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/remark-mdx 305ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/remark-mdx set size:undefined disposed:false
+168 silly fetch manifest unified@^11.0.0
+169 silly packumentCache full:https://registry.npmjs.org/unified cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/remark-rehype 293ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/remark-rehype set size:undefined disposed:false
+172 silly fetch manifest unist-util-position-from-estree@^2.0.0
+173 silly packumentCache full:https://registry.npmjs.org/unist-util-position-from-estree cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/unified 326ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/unified set size:undefined disposed:false
+176 silly fetch manifest unist-util-stringify-position@^4.0.0
+177 silly packumentCache full:https://registry.npmjs.org/unist-util-stringify-position cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/source-map 348ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/source-map set size:undefined disposed:false
+180 silly fetch manifest unist-util-visit@^5.0.0
+181 silly packumentCache full:https://registry.npmjs.org/unist-util-visit cache-miss
+182 http cache https://registry.npmjs.org/unist-util-visit 13ms (cache hit)
+183 silly packumentCache full:https://registry.npmjs.org/unist-util-visit set size:90557 disposed:false
+184 silly fetch manifest vfile@^6.0.0
+185 silly packumentCache full:https://registry.npmjs.org/vfile cache-miss
+186 http cache https://registry.npmjs.org/vfile 6ms (cache hit)
+187 silly packumentCache full:https://registry.npmjs.org/vfile set size:172678 disposed:false
+188 silly fetch manifest @types/unist@^3.0.0
+189 silly packumentCache full:https://registry.npmjs.org/@types%2funist cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/unist-util-position-from-estree 281ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/unist-util-position-from-estree set size:undefined disposed:false
+192 silly fetch manifest unist-util-is@^6.0.0
+193 silly packumentCache full:https://registry.npmjs.org/unist-util-is cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/@types%2funist 253ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/@types%2funist set size:undefined disposed:false
+196 silly fetch manifest unist-util-visit-parents@^6.0.0
+197 silly packumentCache full:https://registry.npmjs.org/unist-util-visit-parents cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/unist-util-stringify-position 335ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/unist-util-stringify-position set size:undefined disposed:false
+200 silly fetch manifest unist-util-is@^6.0.0
+201 silly packumentCache full:https://registry.npmjs.org/unist-util-is cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/unist-util-is 311ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/unist-util-is set size:undefined disposed:false
+204 silly fetch manifest unist-util-visit-parents@^6.0.0
+205 silly packumentCache full:https://registry.npmjs.org/unist-util-visit-parents cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/unist-util-visit-parents 274ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/unist-util-visit-parents set size:undefined disposed:false
+208 silly fetch manifest vfile-message@^4.0.0
+209 silly packumentCache full:https://registry.npmjs.org/vfile-message cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/unist-util-is 279ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/unist-util-is set size:undefined disposed:false
+212 silly fetch manifest yaml@^2.0.0
+213 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/unist-util-visit-parents 291ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/unist-util-visit-parents set size:undefined disposed:false
+216 http fetch GET 200 https://registry.npmjs.org/vfile-message 305ms (cache miss)
+217 silly packumentCache full:https://registry.npmjs.org/vfile-message set size:undefined disposed:false
+218 http fetch GET 200 https://registry.npmjs.org/yaml 295ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+220 silly placeDep ROOT @babel/helper-validator-identifier@7.28.5 OK for: @babel/code-frame@7.29.0 want: ^7.28.5
+221 silly placeDep ROOT @types/estree@1.0.9 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+222 silly placeDep ROOT @types/estree-jsx@1.0.5 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+223 silly placeDep ROOT @types/hast@3.0.4 OK for: @mdx-js/mdx@3.1.1 want: ^3.0.0
+224 silly placeDep ROOT @types/mdx@2.0.13 OK for: @mdx-js/mdx@3.1.1 want: ^2.0.0
+225 silly placeDep ROOT collapse-white-space@2.1.0 OK for: @mdx-js/mdx@3.1.1 want: ^2.0.0
+226 silly placeDep ROOT devlop@1.1.0 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+227 silly placeDep ROOT estree-util-is-identifier-name@3.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^3.0.0
+228 silly placeDep ROOT estree-util-scope@1.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+229 silly placeDep ROOT estree-walker@3.0.3 OK for: @mdx-js/mdx@3.1.1 want: ^3.0.0
+230 silly placeDep ROOT hast-util-to-jsx-runtime@2.3.6 OK for: @mdx-js/mdx@3.1.1 want: ^2.0.0
+231 silly placeDep ROOT markdown-extensions@2.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^2.0.0
+232 silly placeDep ROOT recma-build-jsx@1.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+233 silly placeDep ROOT recma-jsx@1.0.1 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+234 silly placeDep ROOT recma-stringify@1.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+235 silly placeDep ROOT rehype-recma@1.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^1.0.0
+236 silly placeDep ROOT remark-mdx@3.1.1 OK for: @mdx-js/mdx@3.1.1 want: ^3.0.0
+237 silly placeDep ROOT remark-parse@11.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^11.0.0
+238 silly placeDep ROOT remark-rehype@11.1.2 OK for: @mdx-js/mdx@3.1.1 want: ^11.0.0
+239 silly placeDep ROOT source-map@0.7.6 OK for: @mdx-js/mdx@3.1.1 want: ^0.7.0
+240 silly placeDep ROOT unified@11.0.5 OK for: @mdx-js/mdx@3.1.1 want: ^11.0.0
+241 silly placeDep ROOT unist-util-position-from-estree@2.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^2.0.0
+242 silly placeDep ROOT unist-util-stringify-position@4.0.0 OK for: @mdx-js/mdx@3.1.1 want: ^4.0.0
+243 silly fetch manifest @types/unist@*
+244 silly packumentCache full:https://registry.npmjs.org/@types%2funist cache-miss
+245 silly fetch manifest dequal@^2.0.0
+246 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+247 silly fetch manifest comma-separated-tokens@^2.0.0
+248 silly packumentCache full:https://registry.npmjs.org/comma-separated-tokens cache-miss
+249 http cache https://registry.npmjs.org/@types%2funist 9ms (cache hit)
+250 silly packumentCache full:https://registry.npmjs.org/@types%2funist set size:39215 disposed:false
+251 silly fetch manifest hast-util-whitespace@^3.0.0
+252 silly packumentCache full:https://registry.npmjs.org/hast-util-whitespace cache-miss
+253 http fetch GET 200 https://registry.npmjs.org/dequal 266ms (cache miss)
+254 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+255 silly fetch manifest mdast-util-mdx-expression@^2.0.0
+256 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx-expression cache-miss
+257 http fetch GET 200 https://registry.npmjs.org/comma-separated-tokens 278ms (cache miss)
+258 silly packumentCache full:https://registry.npmjs.org/comma-separated-tokens set size:undefined disposed:false
+259 silly fetch manifest mdast-util-mdx-jsx@^3.0.0
+260 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx-jsx cache-miss
+261 http fetch GET 200 https://registry.npmjs.org/hast-util-whitespace 298ms (cache miss)
+262 silly packumentCache full:https://registry.npmjs.org/hast-util-whitespace set size:undefined disposed:false
+263 silly fetch manifest mdast-util-mdxjs-esm@^2.0.0
+264 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdxjs-esm cache-miss
+265 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx-expression 230ms (cache miss)
+266 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx-expression set size:undefined disposed:false
+267 silly fetch manifest property-information@^7.0.0
+268 silly packumentCache full:https://registry.npmjs.org/property-information cache-miss
+269 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx-jsx 287ms (cache miss)
+270 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx-jsx set size:undefined disposed:false
+271 silly fetch manifest space-separated-tokens@^2.0.0
+272 silly packumentCache full:https://registry.npmjs.org/space-separated-tokens cache-miss
+273 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdxjs-esm 264ms (cache miss)
+274 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdxjs-esm set size:undefined disposed:false
+275 silly fetch manifest style-to-js@^1.0.0
+276 silly packumentCache full:https://registry.npmjs.org/style-to-js cache-miss
+277 http fetch GET 200 https://registry.npmjs.org/property-information 306ms (cache miss)
+278 silly packumentCache full:https://registry.npmjs.org/property-information set size:undefined disposed:false
+279 silly fetch manifest unist-util-position@^5.0.0
+280 silly packumentCache full:https://registry.npmjs.org/unist-util-position cache-miss
+281 http fetch GET 200 https://registry.npmjs.org/space-separated-tokens 245ms (cache miss)
+282 silly packumentCache full:https://registry.npmjs.org/space-separated-tokens set size:undefined disposed:false
+283 silly fetch manifest estree-util-build-jsx@^3.0.0
+284 silly packumentCache full:https://registry.npmjs.org/estree-util-build-jsx cache-miss
+285 http fetch GET 200 https://registry.npmjs.org/style-to-js 508ms (cache miss)
+286 silly packumentCache full:https://registry.npmjs.org/style-to-js set size:undefined disposed:false
+287 silly fetch manifest estree-util-to-js@^2.0.0
+288 silly packumentCache full:https://registry.npmjs.org/estree-util-to-js cache-miss
+289 http fetch GET 200 https://registry.npmjs.org/unist-util-position 290ms (cache miss)
+290 silly packumentCache full:https://registry.npmjs.org/unist-util-position set size:undefined disposed:false
+291 silly fetch manifest recma-parse@^1.0.0
+292 silly packumentCache full:https://registry.npmjs.org/recma-parse cache-miss
+293 http fetch GET 200 https://registry.npmjs.org/estree-util-build-jsx 288ms (cache miss)
+294 silly packumentCache full:https://registry.npmjs.org/estree-util-build-jsx set size:undefined disposed:false
+295 silly fetch manifest estree-util-to-js@^2.0.0
+296 silly packumentCache full:https://registry.npmjs.org/estree-util-to-js cache-miss
+297 http fetch GET 200 https://registry.npmjs.org/estree-util-to-js 241ms (cache miss)
+298 silly packumentCache full:https://registry.npmjs.org/estree-util-to-js set size:undefined disposed:false
+299 silly fetch manifest hast-util-to-estree@^3.0.0
+300 silly packumentCache full:https://registry.npmjs.org/hast-util-to-estree cache-miss
+301 http fetch GET 200 https://registry.npmjs.org/recma-parse 242ms (cache miss)
+302 silly packumentCache full:https://registry.npmjs.org/recma-parse set size:undefined disposed:false
+303 silly fetch manifest mdast-util-mdx@^3.0.0
+304 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx cache-miss
+305 http fetch GET 200 https://registry.npmjs.org/estree-util-to-js 258ms (cache miss)
+306 silly packumentCache full:https://registry.npmjs.org/estree-util-to-js set size:undefined disposed:false
+307 silly fetch manifest micromark-extension-mdxjs@^3.0.0
+308 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdxjs cache-miss
+309 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx 242ms (cache miss)
+310 silly packumentCache full:https://registry.npmjs.org/mdast-util-mdx set size:undefined disposed:false
+311 silly fetch manifest @types/mdast@^4.0.0
+312 silly packumentCache full:https://registry.npmjs.org/@types%2fmdast cache-miss
+313 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdxjs 284ms (cache miss)
+314 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdxjs set size:undefined disposed:false
+315 silly fetch manifest mdast-util-from-markdown@^2.0.0
+316 silly packumentCache full:https://registry.npmjs.org/mdast-util-from-markdown cache-miss
+317 http fetch GET 200 https://registry.npmjs.org/hast-util-to-estree 325ms (cache miss)
+318 silly packumentCache full:https://registry.npmjs.org/hast-util-to-estree set size:undefined disposed:false
+319 silly fetch manifest micromark-util-types@^2.0.0
+320 silly packumentCache full:https://registry.npmjs.org/micromark-util-types cache-miss
+321 http fetch GET 200 https://registry.npmjs.org/micromark-util-types 259ms (cache miss)
+322 silly packumentCache full:https://registry.npmjs.org/micromark-util-types set size:undefined disposed:false
+323 silly fetch manifest @types/mdast@^4.0.0
+324 silly packumentCache full:https://registry.npmjs.org/@types%2fmdast cache-miss
+325 http fetch GET 200 https://registry.npmjs.org/@types%2fmdast 337ms (cache miss)
+326 silly packumentCache full:https://registry.npmjs.org/@types%2fmdast set size:undefined disposed:false
+327 silly fetch manifest mdast-util-to-hast@^13.0.0
+328 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-hast cache-miss
+329 http fetch GET 200 https://registry.npmjs.org/mdast-util-from-markdown 284ms (cache miss)
+330 silly packumentCache full:https://registry.npmjs.org/mdast-util-from-markdown set size:undefined disposed:false
+331 silly fetch manifest bail@^2.0.0
+332 silly packumentCache full:https://registry.npmjs.org/bail cache-miss
+333 http cache https://registry.npmjs.org/@types%2fmdast 19ms (cache hit)
+334 silly packumentCache full:https://registry.npmjs.org/@types%2fmdast set size:47479 disposed:false
+335 silly fetch manifest extend@^3.0.0
+336 silly packumentCache full:https://registry.npmjs.org/extend cache-miss
+337 http fetch GET 200 https://registry.npmjs.org/bail 272ms (cache miss)
+338 silly packumentCache full:https://registry.npmjs.org/bail set size:undefined disposed:false
+339 silly fetch manifest is-plain-obj@^4.0.0
+340 silly packumentCache full:https://registry.npmjs.org/is-plain-obj cache-miss
+341 http fetch GET 200 https://registry.npmjs.org/extend 270ms (cache miss)
+342 silly packumentCache full:https://registry.npmjs.org/extend set size:undefined disposed:false
+343 silly fetch manifest trough@^2.0.0
+344 silly packumentCache full:https://registry.npmjs.org/trough cache-miss
+345 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-hast 301ms (cache miss)
+346 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-hast set size:undefined disposed:false
+347 http fetch GET 200 https://registry.npmjs.org/is-plain-obj 211ms (cache miss)
+348 silly packumentCache full:https://registry.npmjs.org/is-plain-obj set size:undefined disposed:false
+349 http fetch GET 200 https://registry.npmjs.org/trough 249ms (cache miss)
+350 silly packumentCache full:https://registry.npmjs.org/trough set size:undefined disposed:false
+351 silly placeDep ROOT @types/unist@3.0.3 OK for: @types/hast@3.0.4 want: *
+352 silly placeDep ROOT dequal@2.0.3 OK for: devlop@1.1.0 want: ^2.0.0
+353 silly placeDep ROOT comma-separated-tokens@2.0.3 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^2.0.0
+354 silly placeDep ROOT hast-util-whitespace@3.0.0 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^3.0.0
+355 silly placeDep ROOT mdast-util-mdx-expression@2.0.1 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^2.0.0
+356 silly placeDep ROOT mdast-util-mdx-jsx@3.2.0 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^3.0.0
+357 silly placeDep ROOT mdast-util-mdxjs-esm@2.0.1 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^2.0.0
+358 silly placeDep ROOT property-information@7.1.0 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^7.0.0
+359 silly placeDep ROOT space-separated-tokens@2.0.2 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^2.0.0
+360 silly placeDep ROOT style-to-js@1.1.21 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^1.0.0
+361 silly placeDep ROOT unist-util-position@5.0.0 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^5.0.0
+362 silly placeDep ROOT vfile-message@4.0.3 OK for: hast-util-to-jsx-runtime@2.3.6 want: ^4.0.0
+363 silly fetch manifest mdast-util-to-markdown@^2.0.0
+364 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-markdown cache-miss
+365 silly fetch manifest ccount@^2.0.0
+366 silly packumentCache full:https://registry.npmjs.org/ccount cache-miss
+367 silly fetch manifest mdast-util-to-markdown@^2.0.0
+368 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-markdown cache-miss
+369 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-markdown 231ms (cache miss)
+370 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-markdown set size:undefined disposed:false
+371 silly fetch manifest parse-entities@^4.0.0
+372 silly packumentCache full:https://registry.npmjs.org/parse-entities cache-miss
+373 http fetch GET 200 https://registry.npmjs.org/ccount 257ms (cache miss)
+374 silly packumentCache full:https://registry.npmjs.org/ccount set size:undefined disposed:false
+375 silly fetch manifest stringify-entities@^4.0.0
+376 silly packumentCache full:https://registry.npmjs.org/stringify-entities cache-miss
+377 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-markdown 282ms (cache miss)
+378 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-markdown set size:undefined disposed:false
+379 silly fetch manifest style-to-object@1.0.14
+380 silly packumentCache full:https://registry.npmjs.org/style-to-object cache-miss
+381 http fetch GET 200 https://registry.npmjs.org/stringify-entities 264ms (cache miss)
+382 silly packumentCache full:https://registry.npmjs.org/stringify-entities set size:undefined disposed:false
+383 http fetch GET 200 https://registry.npmjs.org/parse-entities 294ms (cache miss)
+384 silly packumentCache full:https://registry.npmjs.org/parse-entities set size:undefined disposed:false
+385 http fetch GET 200 https://registry.npmjs.org/style-to-object 279ms (cache miss)
+386 silly packumentCache full:https://registry.npmjs.org/style-to-object set size:undefined disposed:false
+387 silly placeDep ROOT @types/mdast@4.0.4 OK for: mdast-util-mdx-expression@2.0.1 want: ^4.0.0
+388 silly placeDep ROOT mdast-util-from-markdown@2.0.3 OK for: mdast-util-mdx-expression@2.0.1 want: ^2.0.0
+389 silly placeDep ROOT mdast-util-to-markdown@2.1.2 OK for: mdast-util-mdx-expression@2.0.1 want: ^2.0.0
+390 silly fetch manifest decode-named-character-reference@^1.0.0
+391 silly packumentCache full:https://registry.npmjs.org/decode-named-character-reference cache-miss
+392 silly fetch manifest mdast-util-to-string@^4.0.0
+393 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-string cache-miss
+394 silly fetch manifest micromark@^4.0.0
+395 silly packumentCache full:https://registry.npmjs.org/micromark cache-miss
+396 http fetch GET 200 https://registry.npmjs.org/decode-named-character-reference 306ms (cache miss)
+397 silly packumentCache full:https://registry.npmjs.org/decode-named-character-reference set size:undefined disposed:false
+398 silly fetch manifest micromark-util-decode-numeric-character-reference@^2.0.0
+399 silly packumentCache full:https://registry.npmjs.org/micromark-util-decode-numeric-character-reference cache-miss
+400 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-string 309ms (cache miss)
+401 silly packumentCache full:https://registry.npmjs.org/mdast-util-to-string set size:undefined disposed:false
+402 silly fetch manifest micromark-util-decode-string@^2.0.0
+403 silly packumentCache full:https://registry.npmjs.org/micromark-util-decode-string cache-miss
+404 http fetch GET 200 https://registry.npmjs.org/micromark 311ms (cache miss)
+405 silly packumentCache full:https://registry.npmjs.org/micromark set size:undefined disposed:false
+406 silly fetch manifest micromark-util-normalize-identifier@^2.0.0
+407 silly packumentCache full:https://registry.npmjs.org/micromark-util-normalize-identifier cache-miss
+408 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-string 263ms (cache miss)
+409 silly packumentCache full:https://registry.npmjs.org/micromark-util-decode-string set size:undefined disposed:false
+410 silly fetch manifest micromark-util-symbol@^2.0.0
+411 silly packumentCache full:https://registry.npmjs.org/micromark-util-symbol cache-miss
+412 http fetch GET 200 https://registry.npmjs.org/micromark-util-normalize-identifier 286ms (cache miss)
+413 silly packumentCache full:https://registry.npmjs.org/micromark-util-normalize-identifier set size:undefined disposed:false
+414 silly fetch manifest longest-streak@^3.0.0
+415 silly packumentCache full:https://registry.npmjs.org/longest-streak cache-miss
+416 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-numeric-character-reference 344ms (cache miss)
+417 silly packumentCache full:https://registry.npmjs.org/micromark-util-decode-numeric-character-reference set size:undefined disposed:false
+418 silly fetch manifest mdast-util-phrasing@^4.0.0
+419 silly packumentCache full:https://registry.npmjs.org/mdast-util-phrasing cache-miss
+420 http fetch GET 200 https://registry.npmjs.org/longest-streak 255ms (cache miss)
+421 silly packumentCache full:https://registry.npmjs.org/longest-streak set size:undefined disposed:false
+422 silly fetch manifest micromark-util-classify-character@^2.0.0
+423 silly packumentCache full:https://registry.npmjs.org/micromark-util-classify-character cache-miss
+424 http fetch GET 200 https://registry.npmjs.org/micromark-util-symbol 287ms (cache miss)
+425 silly packumentCache full:https://registry.npmjs.org/micromark-util-symbol set size:undefined disposed:false
+426 silly fetch manifest zwitch@^2.0.0
+427 silly packumentCache full:https://registry.npmjs.org/zwitch cache-miss
+428 http fetch GET 200 https://registry.npmjs.org/mdast-util-phrasing 292ms (cache miss)
+429 silly packumentCache full:https://registry.npmjs.org/mdast-util-phrasing set size:undefined disposed:false
+430 http fetch GET 200 https://registry.npmjs.org/zwitch 239ms (cache miss)
+431 silly packumentCache full:https://registry.npmjs.org/zwitch set size:undefined disposed:false
+432 http fetch GET 200 https://registry.npmjs.org/micromark-util-classify-character 312ms (cache miss)
+433 silly packumentCache full:https://registry.npmjs.org/micromark-util-classify-character set size:undefined disposed:false
+434 silly placeDep ROOT decode-named-character-reference@1.3.0 OK for: mdast-util-from-markdown@2.0.3 want: ^1.0.0
+435 silly placeDep ROOT mdast-util-to-string@4.0.0 OK for: mdast-util-from-markdown@2.0.3 want: ^4.0.0
+436 silly placeDep ROOT micromark@4.0.2 OK for: mdast-util-from-markdown@2.0.3 want: ^4.0.0
+437 silly placeDep ROOT micromark-util-decode-numeric-character-reference@2.0.2 OK for: mdast-util-from-markdown@2.0.3 want: ^2.0.0
+438 silly placeDep ROOT micromark-util-decode-string@2.0.1 OK for: mdast-util-from-markdown@2.0.3 want: ^2.0.0
+439 silly placeDep ROOT micromark-util-normalize-identifier@2.0.1 OK for: mdast-util-from-markdown@2.0.3 want: ^2.0.0
+440 silly placeDep ROOT micromark-util-symbol@2.0.1 OK for: mdast-util-from-markdown@2.0.3 want: ^2.0.0
+441 silly placeDep ROOT micromark-util-types@2.0.2 OK for: mdast-util-from-markdown@2.0.3 want: ^2.0.0
+442 silly fetch manifest character-entities@^2.0.0
+443 silly packumentCache full:https://registry.npmjs.org/character-entities cache-miss
+444 silly fetch manifest @types/debug@^4.0.0
+445 silly packumentCache full:https://registry.npmjs.org/@types%2fdebug cache-miss
+446 silly fetch manifest micromark-core-commonmark@^2.0.0
+447 silly packumentCache full:https://registry.npmjs.org/micromark-core-commonmark cache-miss
+448 http fetch GET 200 https://registry.npmjs.org/micromark-core-commonmark 260ms (cache miss)
+449 silly packumentCache full:https://registry.npmjs.org/micromark-core-commonmark set size:undefined disposed:false
+450 silly fetch manifest micromark-factory-space@^2.0.0
+451 silly packumentCache full:https://registry.npmjs.org/micromark-factory-space cache-miss
+452 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 289ms (cache miss)
+453 silly packumentCache full:https://registry.npmjs.org/@types%2fdebug set size:undefined disposed:false
+454 silly fetch manifest micromark-util-character@^2.0.0
+455 silly packumentCache full:https://registry.npmjs.org/micromark-util-character cache-miss
+456 http fetch GET 200 https://registry.npmjs.org/character-entities 294ms (cache miss)
+457 silly packumentCache full:https://registry.npmjs.org/character-entities set size:undefined disposed:false
+458 silly fetch manifest micromark-util-chunked@^2.0.0
+459 silly packumentCache full:https://registry.npmjs.org/micromark-util-chunked cache-miss
+460 http fetch GET 200 https://registry.npmjs.org/micromark-util-character 234ms (cache miss)
+461 silly packumentCache full:https://registry.npmjs.org/micromark-util-character set size:undefined disposed:false
+462 silly fetch manifest micromark-util-combine-extensions@^2.0.0
+463 silly packumentCache full:https://registry.npmjs.org/micromark-util-combine-extensions cache-miss
+464 http fetch GET 200 https://registry.npmjs.org/micromark-factory-space 285ms (cache miss)
+465 silly packumentCache full:https://registry.npmjs.org/micromark-factory-space set size:undefined disposed:false
+466 silly fetch manifest micromark-util-encode@^2.0.0
+467 silly packumentCache full:https://registry.npmjs.org/micromark-util-encode cache-miss
+468 http fetch GET 200 https://registry.npmjs.org/micromark-util-chunked 264ms (cache miss)
+469 silly packumentCache full:https://registry.npmjs.org/micromark-util-chunked set size:undefined disposed:false
+470 silly fetch manifest micromark-util-resolve-all@^2.0.0
+471 silly packumentCache full:https://registry.npmjs.org/micromark-util-resolve-all cache-miss
+472 http fetch GET 200 https://registry.npmjs.org/micromark-util-encode 271ms (cache miss)
+473 silly packumentCache full:https://registry.npmjs.org/micromark-util-encode set size:undefined disposed:false
+474 silly fetch manifest micromark-util-sanitize-uri@^2.0.0
+475 silly packumentCache full:https://registry.npmjs.org/micromark-util-sanitize-uri cache-miss
+476 http fetch GET 200 https://registry.npmjs.org/micromark-util-combine-extensions 310ms (cache miss)
+477 silly packumentCache full:https://registry.npmjs.org/micromark-util-combine-extensions set size:undefined disposed:false
+478 silly fetch manifest micromark-util-subtokenize@^2.0.0
+479 silly packumentCache full:https://registry.npmjs.org/micromark-util-subtokenize cache-miss
+480 http fetch GET 200 https://registry.npmjs.org/micromark-util-resolve-all 285ms (cache miss)
+481 silly packumentCache full:https://registry.npmjs.org/micromark-util-resolve-all set size:undefined disposed:false
+482 http fetch GET 200 https://registry.npmjs.org/micromark-util-subtokenize 271ms (cache miss)
+483 silly packumentCache full:https://registry.npmjs.org/micromark-util-subtokenize set size:undefined disposed:false
+484 http fetch GET 200 https://registry.npmjs.org/micromark-util-sanitize-uri 299ms (cache miss)
+485 silly packumentCache full:https://registry.npmjs.org/micromark-util-sanitize-uri set size:undefined disposed:false
+486 silly placeDep ROOT character-entities@2.0.2 OK for: decode-named-character-reference@1.3.0 want: ^2.0.0
+487 silly placeDep ROOT ccount@2.0.1 OK for: mdast-util-mdx-jsx@3.2.0 want: ^2.0.0
+488 silly placeDep ROOT parse-entities@4.0.2 OK for: mdast-util-mdx-jsx@3.2.0 want: ^4.0.0
+489 silly placeDep ROOT stringify-entities@4.0.4 OK for: mdast-util-mdx-jsx@3.2.0 want: ^4.0.0
+490 silly fetch manifest @types/unist@^2.0.0
+491 silly packumentCache full:https://registry.npmjs.org/@types%2funist cache-hit
+492 silly fetch manifest character-entities-legacy@^3.0.0
+493 silly packumentCache full:https://registry.npmjs.org/character-entities-legacy cache-miss
+494 silly fetch manifest character-reference-invalid@^2.0.0
+495 silly packumentCache full:https://registry.npmjs.org/character-reference-invalid cache-miss
+496 silly fetch manifest is-alphanumerical@^2.0.0
+497 silly packumentCache full:https://registry.npmjs.org/is-alphanumerical cache-miss
+498 http fetch GET 200 https://registry.npmjs.org/is-alphanumerical 221ms (cache miss)
+499 silly packumentCache full:https://registry.npmjs.org/is-alphanumerical set size:undefined disposed:false
+500 silly fetch manifest is-decimal@^2.0.0
+501 silly packumentCache full:https://registry.npmjs.org/is-decimal cache-miss
+502 http fetch GET 200 https://registry.npmjs.org/character-reference-invalid 239ms (cache miss)
+503 silly packumentCache full:https://registry.npmjs.org/character-reference-invalid set size:undefined disposed:false
+504 silly fetch manifest is-hexadecimal@^2.0.0
+505 silly packumentCache full:https://registry.npmjs.org/is-hexadecimal cache-miss
+506 http fetch GET 200 https://registry.npmjs.org/character-entities-legacy 278ms (cache miss)
+507 silly packumentCache full:https://registry.npmjs.org/character-entities-legacy set size:undefined disposed:false
+508 silly fetch manifest character-entities-html4@^2.0.0
+509 silly packumentCache full:https://registry.npmjs.org/character-entities-html4 cache-miss
+510 http fetch GET 200 https://registry.npmjs.org/is-hexadecimal 213ms (cache miss)
+511 silly packumentCache full:https://registry.npmjs.org/is-hexadecimal set size:undefined disposed:false
+512 http fetch GET 200 https://registry.npmjs.org/is-decimal 237ms (cache miss)
+513 silly packumentCache full:https://registry.npmjs.org/is-decimal set size:undefined disposed:false
+514 http fetch GET 200 https://registry.npmjs.org/character-entities-html4 242ms (cache miss)
+515 silly packumentCache full:https://registry.npmjs.org/character-entities-html4 set size:undefined disposed:false
+516 silly placeDep ROOT longest-streak@3.1.0 OK for: mdast-util-to-markdown@2.1.2 want: ^3.0.0
+517 silly placeDep ROOT mdast-util-phrasing@4.1.0 OK for: mdast-util-to-markdown@2.1.2 want: ^4.0.0
+518 silly placeDep ROOT micromark-util-classify-character@2.0.1 OK for: mdast-util-to-markdown@2.1.2 want: ^2.0.0
+519 silly placeDep ROOT zwitch@2.0.4 OK for: mdast-util-to-markdown@2.1.2 want: ^2.0.0
+520 silly placeDep ROOT unist-util-is@6.0.1 OK for: mdast-util-phrasing@4.1.0 want: ^6.0.0
+521 silly placeDep ROOT @types/debug@4.1.13 OK for: micromark@4.0.2 want: ^4.0.0
+522 silly placeDep ROOT micromark-core-commonmark@2.0.3 OK for: micromark@4.0.2 want: ^2.0.0
+523 silly placeDep ROOT micromark-factory-space@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+524 silly placeDep ROOT micromark-util-character@2.1.1 OK for: micromark@4.0.2 want: ^2.0.0
+525 silly placeDep ROOT micromark-util-chunked@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+526 silly placeDep ROOT micromark-util-combine-extensions@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+527 silly placeDep ROOT micromark-util-encode@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+528 silly placeDep ROOT micromark-util-resolve-all@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+529 silly placeDep ROOT micromark-util-sanitize-uri@2.0.1 OK for: micromark@4.0.2 want: ^2.0.0
+530 silly placeDep ROOT micromark-util-subtokenize@2.1.0 OK for: micromark@4.0.2 want: ^2.0.0
+531 silly fetch manifest @types/ms@*
+532 silly packumentCache full:https://registry.npmjs.org/@types%2fms cache-miss
+533 silly fetch manifest micromark-factory-destination@^2.0.0
+534 silly packumentCache full:https://registry.npmjs.org/micromark-factory-destination cache-miss
+535 silly fetch manifest micromark-factory-label@^2.0.0
+536 silly packumentCache full:https://registry.npmjs.org/micromark-factory-label cache-miss
+537 http fetch GET 200 https://registry.npmjs.org/micromark-factory-destination 240ms (cache miss)
+538 silly packumentCache full:https://registry.npmjs.org/micromark-factory-destination set size:undefined disposed:false
+539 silly fetch manifest micromark-factory-title@^2.0.0
+540 silly packumentCache full:https://registry.npmjs.org/micromark-factory-title cache-miss
+541 http fetch GET 200 https://registry.npmjs.org/@types%2fms 314ms (cache miss)
+542 silly packumentCache full:https://registry.npmjs.org/@types%2fms set size:undefined disposed:false
+543 silly fetch manifest micromark-factory-whitespace@^2.0.0
+544 silly packumentCache full:https://registry.npmjs.org/micromark-factory-whitespace cache-miss
+545 http fetch GET 200 https://registry.npmjs.org/micromark-factory-label 322ms (cache miss)
+546 silly packumentCache full:https://registry.npmjs.org/micromark-factory-label set size:undefined disposed:false
+547 silly fetch manifest micromark-util-html-tag-name@^2.0.0
+548 silly packumentCache full:https://registry.npmjs.org/micromark-util-html-tag-name cache-miss
+549 http fetch GET 200 https://registry.npmjs.org/micromark-factory-title 280ms (cache miss)
+550 silly packumentCache full:https://registry.npmjs.org/micromark-factory-title set size:undefined disposed:false
+551 http fetch GET 200 https://registry.npmjs.org/micromark-factory-whitespace 257ms (cache miss)
+552 silly packumentCache full:https://registry.npmjs.org/micromark-factory-whitespace set size:undefined disposed:false
+553 http fetch GET 200 https://registry.npmjs.org/micromark-util-html-tag-name 326ms (cache miss)
+554 silly packumentCache full:https://registry.npmjs.org/micromark-util-html-tag-name set size:undefined disposed:false
+555 silly placeDep ROOT @types/ms@2.1.0 OK for: @types/debug@4.1.13 want: *
+556 silly placeDep ROOT micromark-factory-destination@2.0.1 OK for: micromark-core-commonmark@2.0.3 want: ^2.0.0
+557 silly placeDep ROOT micromark-factory-label@2.0.1 OK for: micromark-core-commonmark@2.0.3 want: ^2.0.0
+558 silly placeDep ROOT micromark-factory-title@2.0.1 OK for: micromark-core-commonmark@2.0.3 want: ^2.0.0
+559 silly placeDep ROOT micromark-factory-whitespace@2.0.1 OK for: micromark-core-commonmark@2.0.3 want: ^2.0.0
+560 silly placeDep ROOT micromark-util-html-tag-name@2.0.1 OK for: micromark-core-commonmark@2.0.3 want: ^2.0.0
+561 silly placeDep node_modules/parse-entities @types/unist@2.0.11 OK for: parse-entities@4.0.2 want: ^2.0.0
+562 silly placeDep ROOT character-entities-legacy@3.0.0 OK for: parse-entities@4.0.2 want: ^3.0.0
+563 silly placeDep ROOT character-reference-invalid@2.0.1 OK for: parse-entities@4.0.2 want: ^2.0.0
+564 silly placeDep ROOT is-alphanumerical@2.0.1 OK for: parse-entities@4.0.2 want: ^2.0.0
+565 silly placeDep ROOT is-decimal@2.0.1 OK for: parse-entities@4.0.2 want: ^2.0.0
+566 silly placeDep ROOT is-hexadecimal@2.0.1 OK for: parse-entities@4.0.2 want: ^2.0.0
+567 silly fetch manifest is-alphabetical@^2.0.0
+568 silly packumentCache full:https://registry.npmjs.org/is-alphabetical cache-miss
+569 http fetch GET 200 https://registry.npmjs.org/is-alphabetical 259ms (cache miss)
+570 silly packumentCache full:https://registry.npmjs.org/is-alphabetical set size:undefined disposed:false
+571 silly placeDep ROOT is-alphabetical@2.0.1 OK for: is-alphanumerical@2.0.1 want: ^2.0.0
+572 silly placeDep ROOT estree-util-build-jsx@3.0.1 OK for: recma-build-jsx@1.0.0 want: ^3.0.0
+573 silly placeDep ROOT estree-util-to-js@2.0.0 OK for: recma-jsx@1.0.1 want: ^2.0.0
+574 silly placeDep ROOT recma-parse@1.0.0 OK for: recma-jsx@1.0.1 want: ^1.0.0
+575 silly fetch manifest astring@^1.8.0
+576 silly packumentCache full:https://registry.npmjs.org/astring cache-miss
+577 silly fetch manifest esast-util-from-js@^2.0.0
+578 silly packumentCache full:https://registry.npmjs.org/esast-util-from-js cache-miss
+579 http fetch GET 200 https://registry.npmjs.org/esast-util-from-js 241ms (cache miss)
+580 silly packumentCache full:https://registry.npmjs.org/esast-util-from-js set size:undefined disposed:false
+581 http fetch GET 200 https://registry.npmjs.org/astring 298ms (cache miss)
+582 silly packumentCache full:https://registry.npmjs.org/astring set size:undefined disposed:false
+583 silly placeDep ROOT astring@1.9.0 OK for: estree-util-to-js@2.0.0 want: ^1.8.0
+584 silly placeDep ROOT esast-util-from-js@2.0.1 OK for: recma-parse@1.0.0 want: ^2.0.0
+585 silly fetch manifest esast-util-from-estree@^2.0.0
+586 silly packumentCache full:https://registry.npmjs.org/esast-util-from-estree cache-miss
+587 http fetch GET 200 https://registry.npmjs.org/esast-util-from-estree 262ms (cache miss)
+588 silly packumentCache full:https://registry.npmjs.org/esast-util-from-estree set size:undefined disposed:false
+589 silly placeDep ROOT esast-util-from-estree@2.0.0 OK for: esast-util-from-js@2.0.1 want: ^2.0.0
+590 silly fetch manifest estree-util-visit@^2.0.0
+591 silly packumentCache full:https://registry.npmjs.org/estree-util-visit cache-miss
+592 http fetch GET 200 https://registry.npmjs.org/estree-util-visit 274ms (cache miss)
+593 silly packumentCache full:https://registry.npmjs.org/estree-util-visit set size:undefined disposed:false
+594 silly placeDep ROOT estree-util-visit@2.0.0 OK for: esast-util-from-estree@2.0.0 want: ^2.0.0
+595 silly placeDep ROOT hast-util-to-estree@3.1.3 OK for: rehype-recma@1.0.0 want: ^3.0.0
+596 silly fetch manifest estree-util-attach-comments@^3.0.0
+597 silly packumentCache full:https://registry.npmjs.org/estree-util-attach-comments cache-miss
+598 http fetch GET 200 https://registry.npmjs.org/estree-util-attach-comments 224ms (cache miss)
+599 silly packumentCache full:https://registry.npmjs.org/estree-util-attach-comments set size:undefined disposed:false
+600 silly placeDep ROOT estree-util-attach-comments@3.0.0 OK for: hast-util-to-estree@3.1.3 want: ^3.0.0
+601 silly placeDep ROOT mdast-util-mdx@3.0.0 OK for: remark-mdx@3.1.1 want: ^3.0.0
+602 silly placeDep ROOT micromark-extension-mdxjs@3.0.0 OK for: remark-mdx@3.1.1 want: ^3.0.0
+603 silly fetch manifest micromark-extension-mdx-expression@^3.0.0
+604 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-expression cache-miss
+605 silly fetch manifest micromark-extension-mdx-jsx@^3.0.0
+606 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-jsx cache-miss
+607 silly fetch manifest micromark-extension-mdx-md@^2.0.0
+608 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-md cache-miss
+609 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-md 296ms (cache miss)
+610 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-md set size:undefined disposed:false
+611 silly fetch manifest micromark-extension-mdxjs-esm@^3.0.0
+612 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdxjs-esm cache-miss
+613 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-expression 302ms (cache miss)
+614 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-expression set size:undefined disposed:false
+615 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-jsx 304ms (cache miss)
+616 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdx-jsx set size:undefined disposed:false
+617 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdxjs-esm 909ms (cache miss)
+618 silly packumentCache full:https://registry.npmjs.org/micromark-extension-mdxjs-esm set size:undefined disposed:false
+619 silly placeDep ROOT micromark-extension-mdx-expression@3.0.1 OK for: micromark-extension-mdxjs@3.0.0 want: ^3.0.0
+620 silly placeDep ROOT micromark-extension-mdx-jsx@3.0.2 OK for: micromark-extension-mdxjs@3.0.0 want: ^3.0.0
+621 silly placeDep ROOT micromark-extension-mdx-md@2.0.0 OK for: micromark-extension-mdxjs@3.0.0 want: ^2.0.0
+622 silly placeDep ROOT micromark-extension-mdxjs-esm@3.0.0 OK for: micromark-extension-mdxjs@3.0.0 want: ^3.0.0
+623 silly fetch manifest micromark-factory-mdx-expression@^2.0.0
+624 silly packumentCache full:https://registry.npmjs.org/micromark-factory-mdx-expression cache-miss
+625 silly fetch manifest micromark-util-events-to-acorn@^2.0.0
+626 silly packumentCache full:https://registry.npmjs.org/micromark-util-events-to-acorn cache-miss
+627 silly fetch manifest micromark-factory-mdx-expression@^2.0.0
+628 silly packumentCache full:https://registry.npmjs.org/micromark-factory-mdx-expression cache-miss
+629 http fetch GET 200 https://registry.npmjs.org/micromark-util-events-to-acorn 254ms (cache miss)
+630 silly packumentCache full:https://registry.npmjs.org/micromark-util-events-to-acorn set size:undefined disposed:false
+631 http fetch GET 200 https://registry.npmjs.org/micromark-factory-mdx-expression 256ms (cache miss)
+632 silly packumentCache full:https://registry.npmjs.org/micromark-factory-mdx-expression set size:undefined disposed:false
+633 http fetch GET 200 https://registry.npmjs.org/micromark-factory-mdx-expression 260ms (cache miss)
+634 silly packumentCache full:https://registry.npmjs.org/micromark-factory-mdx-expression set size:undefined disposed:false
+635 silly placeDep ROOT micromark-factory-mdx-expression@2.0.3 OK for: micromark-extension-mdx-expression@3.0.1 want: ^2.0.0
+636 silly placeDep ROOT micromark-util-events-to-acorn@2.0.3 OK for: micromark-extension-mdx-expression@3.0.1 want: ^2.0.0
+637 silly placeDep ROOT mdast-util-to-hast@13.2.1 OK for: remark-rehype@11.1.2 want: ^13.0.0
+638 silly fetch manifest trim-lines@^3.0.0
+639 silly packumentCache full:https://registry.npmjs.org/trim-lines cache-miss
+640 http fetch GET 200 https://registry.npmjs.org/trim-lines 237ms (cache miss)
+641 silly packumentCache full:https://registry.npmjs.org/trim-lines set size:undefined disposed:false
+642 silly placeDep ROOT trim-lines@3.0.1 OK for: mdast-util-to-hast@13.2.1 want: ^3.0.0
+643 silly placeDep ROOT extend-shallow@2.0.1 OK for: section-matter@1.0.0 want: ^2.0.1
+644 silly fetch manifest is-extendable@^0.1.0
+645 silly packumentCache full:https://registry.npmjs.org/is-extendable cache-miss
+646 http fetch GET 200 https://registry.npmjs.org/is-extendable 245ms (cache miss)
+647 silly packumentCache full:https://registry.npmjs.org/is-extendable set size:undefined disposed:false
+648 silly placeDep ROOT is-extendable@0.1.1 OK for: extend-shallow@2.0.1 want: ^0.1.0
+649 silly placeDep ROOT character-entities-html4@2.1.0 OK for: stringify-entities@4.0.4 want: ^2.0.0
+650 silly placeDep ROOT style-to-object@1.0.14 OK for: style-to-js@1.1.21 want: 1.0.14
+651 silly fetch manifest inline-style-parser@0.2.7
+652 silly packumentCache full:https://registry.npmjs.org/inline-style-parser cache-miss
+653 http fetch GET 200 https://registry.npmjs.org/inline-style-parser 242ms (cache miss)
+654 silly packumentCache full:https://registry.npmjs.org/inline-style-parser set size:undefined disposed:false
+655 silly placeDep ROOT inline-style-parser@0.2.7 OK for: style-to-object@1.0.14 want: 0.2.7
+656 silly placeDep ROOT bail@2.0.2 OK for: unified@11.0.5 want: ^2.0.0
+657 silly placeDep ROOT extend@3.0.2 OK for: unified@11.0.5 want: ^3.0.0
+658 silly placeDep ROOT is-plain-obj@4.1.0 OK for: unified@11.0.5 want: ^4.0.0
+659 silly placeDep ROOT trough@2.2.0 OK for: unified@11.0.5 want: ^2.0.0
+660 silly placeDep ROOT unist-util-visit-parents@6.0.2 OK for: unist-util-remove@4.0.0 want: ^6.0.0
+661 silly placeDep ROOT yaml@2.8.4 OK for: vfile-matter@5.0.1 want: ^2.0.0
+662 silly placeDep node_modules/gray-matter argparse@1.0.10 OK for: js-yaml@3.14.2 want: ^1.0.7
+663 silly placeDep ROOT esprima@4.0.1 OK for: js-yaml@3.14.2 want: ^4.0.0
+664 silly fetch manifest sprintf-js@~1.0.2
+665 silly packumentCache full:https://registry.npmjs.org/sprintf-js cache-miss
+666 http fetch GET 200 https://registry.npmjs.org/sprintf-js 332ms (cache miss)
+667 silly packumentCache full:https://registry.npmjs.org/sprintf-js set size:undefined disposed:false
+668 silly placeDep ROOT sprintf-js@1.0.3 OK for: argparse@1.0.10 want: ~1.0.2
+669 silly reify moves {}
+670 http cache sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 0ms (cache hit)
+671 http cache esprima@https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 0ms (cache hit)
+672 http cache yaml@https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz 0ms (cache hit)
+673 http cache unist-util-visit-parents@https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz 0ms (cache hit)
+674 http cache trough@https://registry.npmjs.org/trough/-/trough-2.2.0.tgz 0ms (cache hit)
+675 http cache extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 0ms (cache hit)
+676 http cache is-plain-obj@https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz 0ms (cache hit)
+677 http cache bail@https://registry.npmjs.org/bail/-/bail-2.0.2.tgz 0ms (cache hit)
+678 http cache inline-style-parser@https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.2.7.tgz 0ms (cache hit)
+679 http cache style-to-object@https://registry.npmjs.org/style-to-object/-/style-to-object-1.0.14.tgz 0ms (cache hit)
+680 http cache character-entities-html4@https://registry.npmjs.org/character-entities-html4/-/character-entities-html4-2.1.0.tgz 0ms (cache hit)
+681 http cache is-extendable@https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz 0ms (cache hit)
+682 http cache extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 0ms (cache hit)
+683 http cache mdast-util-to-hast@https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz 0ms (cache hit)
+684 http cache trim-lines@https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz 0ms (cache hit)
+685 http cache micromark-util-events-to-acorn@https://registry.npmjs.org/micromark-util-events-to-acorn/-/micromark-util-events-to-acorn-2.0.3.tgz 0ms (cache hit)
+686 http cache micromark-factory-mdx-expression@https://registry.npmjs.org/micromark-factory-mdx-expression/-/micromark-factory-mdx-expression-2.0.3.tgz 0ms (cache hit)
+687 http cache micromark-extension-mdxjs-esm@https://registry.npmjs.org/micromark-extension-mdxjs-esm/-/micromark-extension-mdxjs-esm-3.0.0.tgz 0ms (cache hit)
+688 http cache micromark-extension-mdx-md@https://registry.npmjs.org/micromark-extension-mdx-md/-/micromark-extension-mdx-md-2.0.0.tgz 0ms (cache hit)
+689 http cache micromark-extension-mdx-jsx@https://registry.npmjs.org/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-3.0.2.tgz 0ms (cache hit)
+690 http cache micromark-extension-mdx-expression@https://registry.npmjs.org/micromark-extension-mdx-expression/-/micromark-extension-mdx-expression-3.0.1.tgz 0ms (cache hit)
+691 http cache micromark-extension-mdxjs@https://registry.npmjs.org/micromark-extension-mdxjs/-/micromark-extension-mdxjs-3.0.0.tgz 0ms (cache hit)
+692 http cache mdast-util-mdx@https://registry.npmjs.org/mdast-util-mdx/-/mdast-util-mdx-3.0.0.tgz 0ms (cache hit)
+693 http cache estree-util-attach-comments@https://registry.npmjs.org/estree-util-attach-comments/-/estree-util-attach-comments-3.0.0.tgz 0ms (cache hit)
+694 http cache hast-util-to-estree@https://registry.npmjs.org/hast-util-to-estree/-/hast-util-to-estree-3.1.3.tgz 0ms (cache hit)
+695 http cache estree-util-visit@https://registry.npmjs.org/estree-util-visit/-/estree-util-visit-2.0.0.tgz 0ms (cache hit)
+696 http cache esast-util-from-estree@https://registry.npmjs.org/esast-util-from-estree/-/esast-util-from-estree-2.0.0.tgz 0ms (cache hit)
+697 http cache esast-util-from-js@https://registry.npmjs.org/esast-util-from-js/-/esast-util-from-js-2.0.1.tgz 0ms (cache hit)
+698 http cache astring@https://registry.npmjs.org/astring/-/astring-1.9.0.tgz 0ms (cache hit)
+699 http cache recma-parse@https://registry.npmjs.org/recma-parse/-/recma-parse-1.0.0.tgz 0ms (cache hit)
+700 http cache estree-util-to-js@https://registry.npmjs.org/estree-util-to-js/-/estree-util-to-js-2.0.0.tgz 0ms (cache hit)
+701 http cache estree-util-build-jsx@https://registry.npmjs.org/estree-util-build-jsx/-/estree-util-build-jsx-3.0.1.tgz 0ms (cache hit)
+702 http cache is-hexadecimal@https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz 0ms (cache hit)
+703 http cache is-decimal@https://registry.npmjs.org/is-decimal/-/is-decimal-2.0.1.tgz 0ms (cache hit)
+704 http cache character-reference-invalid@https://registry.npmjs.org/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz 0ms (cache hit)
+705 http cache is-alphanumerical@https://registry.npmjs.org/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz 0ms (cache hit)
+706 http cache character-entities-legacy@https://registry.npmjs.org/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz 0ms (cache hit)
+707 http cache micromark-util-html-tag-name@https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz 0ms (cache hit)
+708 http cache micromark-factory-whitespace@https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz 0ms (cache hit)
+709 http cache micromark-factory-label@https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz 0ms (cache hit)
+710 http cache micromark-factory-title@https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz 0ms (cache hit)
+711 http cache micromark-factory-destination@https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz 0ms (cache hit)
+712 http cache micromark-util-sanitize-uri@https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz 0ms (cache hit)
+713 http cache is-alphabetical@https://registry.npmjs.org/is-alphabetical/-/is-alphabetical-2.0.1.tgz 0ms (cache hit)
+714 http cache @types/ms@https://registry.npmjs.org/@types/ms/-/ms-2.1.0.tgz 0ms (cache hit)
+715 http cache micromark-util-encode@https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz 0ms (cache hit)
+716 http cache micromark-util-combine-extensions@https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz 0ms (cache hit)
+717 http cache micromark-util-chunked@https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz 0ms (cache hit)
+718 http cache micromark-util-subtokenize@https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz 0ms (cache hit)
+719 http cache micromark-factory-space@https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz 0ms (cache hit)
+720 http cache micromark-util-character@https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz 0ms (cache hit)
+721 http cache micromark-core-commonmark@https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-2.0.3.tgz 0ms (cache hit)
+722 http cache @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.13.tgz 0ms (cache hit)
+723 http cache unist-util-is@https://registry.npmjs.org/unist-util-is/-/unist-util-is-6.0.1.tgz 0ms (cache hit)
+724 http cache micromark-util-classify-character@https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz 0ms (cache hit)
+725 http cache zwitch@https://registry.npmjs.org/zwitch/-/zwitch-2.0.4.tgz 0ms (cache hit)
+726 http cache mdast-util-phrasing@https://registry.npmjs.org/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz 0ms (cache hit)
+727 http cache longest-streak@https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz 0ms (cache hit)
+728 http cache parse-entities@https://registry.npmjs.org/parse-entities/-/parse-entities-4.0.2.tgz 0ms (cache hit)
+729 http cache stringify-entities@https://registry.npmjs.org/stringify-entities/-/stringify-entities-4.0.4.tgz 0ms (cache hit)
+730 http cache ccount@https://registry.npmjs.org/ccount/-/ccount-2.0.1.tgz 0ms (cache hit)
+731 http cache character-entities@https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz 0ms (cache hit)
+732 http cache micromark-util-types@https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.2.tgz 0ms (cache hit)
+733 http cache micromark-util-symbol@https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz 0ms (cache hit)
+734 http cache micromark-util-normalize-identifier@https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz 0ms (cache hit)
+735 http cache micromark-util-decode-string@https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz 0ms (cache hit)
+736 http cache micromark-util-resolve-all@https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz 0ms (cache hit)
+737 http cache micromark-util-decode-numeric-character-reference@https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz 0ms (cache hit)
+738 http cache micromark@https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz 0ms (cache hit)
+739 http cache mdast-util-to-string@https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz 0ms (cache hit)
+740 http cache mdast-util-to-markdown@https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz 0ms (cache hit)
+741 http cache decode-named-character-reference@https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz 0ms (cache hit)
+742 http cache @types/mdast@https://registry.npmjs.org/@types/mdast/-/mdast-4.0.4.tgz 0ms (cache hit)
+743 http cache mdast-util-from-markdown@https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.3.tgz 0ms (cache hit)
+744 http cache vfile-message@https://registry.npmjs.org/vfile-message/-/vfile-message-4.0.3.tgz 0ms (cache hit)
+745 http cache style-to-js@https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.21.tgz 0ms (cache hit)
+746 http cache unist-util-position@https://registry.npmjs.org/unist-util-position/-/unist-util-position-5.0.0.tgz 0ms (cache hit)
+747 http cache property-information@https://registry.npmjs.org/property-information/-/property-information-7.1.0.tgz 0ms (cache hit)
+748 http cache mdast-util-mdx-jsx@https://registry.npmjs.org/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz 0ms (cache hit)
+749 http cache space-separated-tokens@https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz 0ms (cache hit)
+750 http cache mdast-util-mdxjs-esm@https://registry.npmjs.org/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz 0ms (cache hit)
+751 http cache mdast-util-mdx-expression@https://registry.npmjs.org/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz 0ms (cache hit)
+752 http cache comma-separated-tokens@https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz 0ms (cache hit)
+753 http cache hast-util-whitespace@https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz 0ms (cache hit)
+754 http cache @types/unist@https://registry.npmjs.org/@types/unist/-/unist-3.0.3.tgz 0ms (cache hit)
+755 http cache unist-util-stringify-position@https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz 0ms (cache hit)
+756 http cache unified@https://registry.npmjs.org/unified/-/unified-11.0.5.tgz 0ms (cache hit)
+757 http cache unist-util-position-from-estree@https://registry.npmjs.org/unist-util-position-from-estree/-/unist-util-position-from-estree-2.0.0.tgz 0ms (cache hit)
+758 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.7.6.tgz 0ms (cache hit)
+759 http cache remark-rehype@https://registry.npmjs.org/remark-rehype/-/remark-rehype-11.1.2.tgz 0ms (cache hit)
+760 http cache remark-parse@https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz 0ms (cache hit)
+761 http cache remark-mdx@https://registry.npmjs.org/remark-mdx/-/remark-mdx-3.1.1.tgz 0ms (cache hit)
+762 http cache rehype-recma@https://registry.npmjs.org/rehype-recma/-/rehype-recma-1.0.0.tgz 0ms (cache hit)
+763 http cache dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 0ms (cache hit)
+764 http cache recma-jsx@https://registry.npmjs.org/recma-jsx/-/recma-jsx-1.0.1.tgz 0ms (cache hit)
+765 http cache recma-build-jsx@https://registry.npmjs.org/recma-build-jsx/-/recma-build-jsx-1.0.0.tgz 0ms (cache hit)
+766 http cache markdown-extensions@https://registry.npmjs.org/markdown-extensions/-/markdown-extensions-2.0.0.tgz 0ms (cache hit)
+767 http cache hast-util-to-jsx-runtime@https://registry.npmjs.org/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz 0ms (cache hit)
+768 http cache estree-walker@https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz 0ms (cache hit)
+769 http cache estree-util-scope@https://registry.npmjs.org/estree-util-scope/-/estree-util-scope-1.0.0.tgz 0ms (cache hit)
+770 http cache estree-util-is-identifier-name@https://registry.npmjs.org/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz 0ms (cache hit)
+771 http cache recma-stringify@https://registry.npmjs.org/recma-stringify/-/recma-stringify-1.0.0.tgz 0ms (cache hit)
+772 http cache devlop@https://registry.npmjs.org/devlop/-/devlop-1.1.0.tgz 0ms (cache hit)
+773 http cache @types/mdx@https://registry.npmjs.org/@types/mdx/-/mdx-2.0.13.tgz 0ms (cache hit)
+774 http cache @types/estree-jsx@https://registry.npmjs.org/@types/estree-jsx/-/estree-jsx-1.0.5.tgz 0ms (cache hit)
+775 http cache collapse-white-space@https://registry.npmjs.org/collapse-white-space/-/collapse-white-space-2.1.0.tgz 0ms (cache hit)
+776 http cache @types/hast@https://registry.npmjs.org/@types/hast/-/hast-3.0.4.tgz 0ms (cache hit)
+777 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz 0ms (cache hit)
+778 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 0ms (cache hit)
+779 http cache unist-util-visit@https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.1.0.tgz 0ms (cache hit)
+780 http cache vfile-matter@https://registry.npmjs.org/vfile-matter/-/vfile-matter-5.0.1.tgz 0ms (cache hit)
+781 http cache vfile@https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz 0ms (cache hit)
+782 http cache unist-util-remove@https://registry.npmjs.org/unist-util-remove/-/unist-util-remove-4.0.0.tgz 0ms (cache hit)
+783 http cache @mdx-js/react@https://registry.npmjs.org/@mdx-js/react/-/react-3.1.1.tgz 0ms (cache hit)
+784 http cache @mdx-js/mdx@https://registry.npmjs.org/@mdx-js/mdx/-/mdx-3.1.1.tgz 0ms (cache hit)
+785 http cache @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz 0ms (cache hit)
+786 http cache strip-bom-string@https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz 0ms (cache hit)
+787 http cache section-matter@https://registry.npmjs.org/section-matter/-/section-matter-1.0.0.tgz 0ms (cache hit)
+788 http cache next-mdx-remote@https://registry.npmjs.org/next-mdx-remote/-/next-mdx-remote-6.0.0.tgz 0ms (cache hit)
+789 http cache kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 0ms (cache hit)
+790 http cache gray-matter@https://registry.npmjs.org/gray-matter/-/gray-matter-4.0.3.tgz 0ms (cache hit)
+791 http cache @types/unist@https://registry.npmjs.org/@types/unist/-/unist-2.0.11.tgz 0ms (cache hit)
+792 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.2.tgz 0ms (cache hit)
+793 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz 0ms (cache hit)
+794 silly tarball no local data for sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz. Extracting by manifest.
+795 silly tarball no local data for esprima@https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz. Extracting by manifest.
+796 silly tarball no local data for yaml@https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz. Extracting by manifest.
+797 silly tarball no local data for unist-util-visit-parents@https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz. Extracting by manifest.
+798 silly tarball no local data for trough@https://registry.npmjs.org/trough/-/trough-2.2.0.tgz. Extracting by manifest.
+799 silly tarball no local data for extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz. Extracting by manifest.
+800 silly tarball no local data for is-plain-obj@https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz. Extracting by manifest.
+801 silly tarball no local data for bail@https://registry.npmjs.org/bail/-/bail-2.0.2.tgz. Extracting by manifest.
+802 silly tarball no local data for inline-style-parser@https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.2.7.tgz. Extracting by manifest.
+803 silly tarball no local data for style-to-object@https://registry.npmjs.org/style-to-object/-/style-to-object-1.0.14.tgz. Extracting by manifest.
+804 silly tarball no local data for character-entities-html4@https://registry.npmjs.org/character-entities-html4/-/character-entities-html4-2.1.0.tgz. Extracting by manifest.
+805 silly tarball no local data for is-extendable@https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz. Extracting by manifest.
+806 silly tarball no local data for extend-shallow@https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz. Extracting by manifest.
+807 silly tarball no local data for mdast-util-to-hast@https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz. Extracting by manifest.
+808 silly tarball no local data for trim-lines@https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz. Extracting by manifest.
+809 silly tarball no local data for micromark-util-events-to-acorn@https://registry.npmjs.org/micromark-util-events-to-acorn/-/micromark-util-events-to-acorn-2.0.3.tgz. Extracting by manifest.
+810 silly tarball no local data for micromark-factory-mdx-expression@https://registry.npmjs.org/micromark-factory-mdx-expression/-/micromark-factory-mdx-expression-2.0.3.tgz. Extracting by manifest.
+811 silly tarball no local data for micromark-extension-mdxjs-esm@https://registry.npmjs.org/micromark-extension-mdxjs-esm/-/micromark-extension-mdxjs-esm-3.0.0.tgz. Extracting by manifest.
+812 silly tarball no local data for micromark-extension-mdx-md@https://registry.npmjs.org/micromark-extension-mdx-md/-/micromark-extension-mdx-md-2.0.0.tgz. Extracting by manifest.
+813 silly tarball no local data for micromark-extension-mdx-jsx@https://registry.npmjs.org/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-3.0.2.tgz. Extracting by manifest.
+814 silly tarball no local data for micromark-extension-mdx-expression@https://registry.npmjs.org/micromark-extension-mdx-expression/-/micromark-extension-mdx-expression-3.0.1.tgz. Extracting by manifest.
+815 silly tarball no local data for micromark-extension-mdxjs@https://registry.npmjs.org/micromark-extension-mdxjs/-/micromark-extension-mdxjs-3.0.0.tgz. Extracting by manifest.
+816 silly tarball no local data for mdast-util-mdx@https://registry.npmjs.org/mdast-util-mdx/-/mdast-util-mdx-3.0.0.tgz. Extracting by manifest.
+817 silly tarball no local data for estree-util-attach-comments@https://registry.npmjs.org/estree-util-attach-comments/-/estree-util-attach-comments-3.0.0.tgz. Extracting by manifest.
+818 silly tarball no local data for hast-util-to-estree@https://registry.npmjs.org/hast-util-to-estree/-/hast-util-to-estree-3.1.3.tgz. Extracting by manifest.
+819 silly tarball no local data for estree-util-visit@https://registry.npmjs.org/estree-util-visit/-/estree-util-visit-2.0.0.tgz. Extracting by manifest.
+820 silly tarball no local data for esast-util-from-estree@https://registry.npmjs.org/esast-util-from-estree/-/esast-util-from-estree-2.0.0.tgz. Extracting by manifest.
+821 silly tarball no local data for esast-util-from-js@https://registry.npmjs.org/esast-util-from-js/-/esast-util-from-js-2.0.1.tgz. Extracting by manifest.
+822 silly tarball no local data for astring@https://registry.npmjs.org/astring/-/astring-1.9.0.tgz. Extracting by manifest.
+823 silly tarball no local data for recma-parse@https://registry.npmjs.org/recma-parse/-/recma-parse-1.0.0.tgz. Extracting by manifest.
+824 silly tarball no local data for estree-util-to-js@https://registry.npmjs.org/estree-util-to-js/-/estree-util-to-js-2.0.0.tgz. Extracting by manifest.
+825 silly tarball no local data for estree-util-build-jsx@https://registry.npmjs.org/estree-util-build-jsx/-/estree-util-build-jsx-3.0.1.tgz. Extracting by manifest.
+826 silly tarball no local data for is-hexadecimal@https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz. Extracting by manifest.
+827 silly tarball no local data for is-decimal@https://registry.npmjs.org/is-decimal/-/is-decimal-2.0.1.tgz. Extracting by manifest.
+828 silly tarball no local data for character-reference-invalid@https://registry.npmjs.org/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz. Extracting by manifest.
+829 silly tarball no local data for is-alphanumerical@https://registry.npmjs.org/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz. Extracting by manifest.
+830 silly tarball no local data for character-entities-legacy@https://registry.npmjs.org/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz. Extracting by manifest.
+831 silly tarball no local data for micromark-util-html-tag-name@https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz. Extracting by manifest.
+832 silly tarball no local data for micromark-factory-whitespace@https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz. Extracting by manifest.
+833 silly tarball no local data for micromark-factory-label@https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz. Extracting by manifest.
+834 silly tarball no local data for micromark-factory-title@https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz. Extracting by manifest.
+835 silly tarball no local data for micromark-factory-destination@https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz. Extracting by manifest.
+836 silly tarball no local data for micromark-util-sanitize-uri@https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz. Extracting by manifest.
+837 silly tarball no local data for is-alphabetical@https://registry.npmjs.org/is-alphabetical/-/is-alphabetical-2.0.1.tgz. Extracting by manifest.
+838 silly tarball no local data for @types/ms@https://registry.npmjs.org/@types/ms/-/ms-2.1.0.tgz. Extracting by manifest.
+839 silly tarball no local data for micromark-util-encode@https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz. Extracting by manifest.
+840 silly tarball no local data for micromark-util-combine-extensions@https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz. Extracting by manifest.
+841 silly tarball no local data for micromark-util-chunked@https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz. Extracting by manifest.
+842 silly tarball no local data for micromark-util-subtokenize@https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz. Extracting by manifest.
+843 silly tarball no local data for micromark-factory-space@https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz. Extracting by manifest.
+844 silly tarball no local data for micromark-util-character@https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz. Extracting by manifest.
+845 silly tarball no local data for micromark-core-commonmark@https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-2.0.3.tgz. Extracting by manifest.
+846 silly tarball no local data for @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.13.tgz. Extracting by manifest.
+847 silly tarball no local data for unist-util-is@https://registry.npmjs.org/unist-util-is/-/unist-util-is-6.0.1.tgz. Extracting by manifest.
+848 silly tarball no local data for micromark-util-classify-character@https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz. Extracting by manifest.
+849 silly tarball no local data for zwitch@https://registry.npmjs.org/zwitch/-/zwitch-2.0.4.tgz. Extracting by manifest.
+850 silly tarball no local data for mdast-util-phrasing@https://registry.npmjs.org/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz. Extracting by manifest.
+851 silly tarball no local data for longest-streak@https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz. Extracting by manifest.
+852 silly tarball no local data for parse-entities@https://registry.npmjs.org/parse-entities/-/parse-entities-4.0.2.tgz. Extracting by manifest.
+853 silly tarball no local data for stringify-entities@https://registry.npmjs.org/stringify-entities/-/stringify-entities-4.0.4.tgz. Extracting by manifest.
+854 silly tarball no local data for ccount@https://registry.npmjs.org/ccount/-/ccount-2.0.1.tgz. Extracting by manifest.
+855 silly tarball no local data for character-entities@https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz. Extracting by manifest.
+856 silly tarball no local data for micromark-util-types@https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.2.tgz. Extracting by manifest.
+857 silly tarball no local data for micromark-util-symbol@https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz. Extracting by manifest.
+858 silly tarball no local data for micromark-util-normalize-identifier@https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz. Extracting by manifest.
+859 silly tarball no local data for micromark-util-decode-string@https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz. Extracting by manifest.
+860 silly tarball no local data for micromark-util-resolve-all@https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz. Extracting by manifest.
+861 silly tarball no local data for micromark-util-decode-numeric-character-reference@https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz. Extracting by manifest.
+862 silly tarball no local data for micromark@https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz. Extracting by manifest.
+863 silly tarball no local data for mdast-util-to-string@https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz. Extracting by manifest.
+864 silly tarball no local data for mdast-util-to-markdown@https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz. Extracting by manifest.
+865 silly tarball no local data for decode-named-character-reference@https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz. Extracting by manifest.
+866 silly tarball no local data for @types/mdast@https://registry.npmjs.org/@types/mdast/-/mdast-4.0.4.tgz. Extracting by manifest.
+867 silly tarball no local data for mdast-util-from-markdown@https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.3.tgz. Extracting by manifest.
+868 silly tarball no local data for vfile-message@https://registry.npmjs.org/vfile-message/-/vfile-message-4.0.3.tgz. Extracting by manifest.
+869 silly tarball no local data for style-to-js@https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.21.tgz. Extracting by manifest.
+870 silly tarball no local data for unist-util-position@https://registry.npmjs.org/unist-util-position/-/unist-util-position-5.0.0.tgz. Extracting by manifest.
+871 silly tarball no local data for property-information@https://registry.npmjs.org/property-information/-/property-information-7.1.0.tgz. Extracting by manifest.
+872 silly tarball no local data for mdast-util-mdx-jsx@https://registry.npmjs.org/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz. Extracting by manifest.
+873 silly tarball no local data for space-separated-tokens@https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz. Extracting by manifest.
+874 silly tarball no local data for mdast-util-mdxjs-esm@https://registry.npmjs.org/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz. Extracting by manifest.
+875 silly tarball no local data for mdast-util-mdx-expression@https://registry.npmjs.org/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz. Extracting by manifest.
+876 silly tarball no local data for comma-separated-tokens@https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz. Extracting by manifest.
+877 silly tarball no local data for hast-util-whitespace@https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz. Extracting by manifest.
+878 silly tarball no local data for @types/unist@https://registry.npmjs.org/@types/unist/-/unist-3.0.3.tgz. Extracting by manifest.
+879 silly tarball no local data for unist-util-stringify-position@https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz. Extracting by manifest.
+880 silly tarball no local data for unified@https://registry.npmjs.org/unified/-/unified-11.0.5.tgz. Extracting by manifest.
+881 silly tarball no local data for unist-util-position-from-estree@https://registry.npmjs.org/unist-util-position-from-estree/-/unist-util-position-from-estree-2.0.0.tgz. Extracting by manifest.
+882 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.7.6.tgz. Extracting by manifest.
+883 silly tarball no local data for remark-rehype@https://registry.npmjs.org/remark-rehype/-/remark-rehype-11.1.2.tgz. Extracting by manifest.
+884 silly tarball no local data for remark-parse@https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz. Extracting by manifest.
+885 silly tarball no local data for remark-mdx@https://registry.npmjs.org/remark-mdx/-/remark-mdx-3.1.1.tgz. Extracting by manifest.
+886 silly tarball no local data for rehype-recma@https://registry.npmjs.org/rehype-recma/-/rehype-recma-1.0.0.tgz. Extracting by manifest.
+887 silly tarball no local data for dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz. Extracting by manifest.
+888 silly tarball no local data for recma-jsx@https://registry.npmjs.org/recma-jsx/-/recma-jsx-1.0.1.tgz. Extracting by manifest.
+889 silly tarball no local data for recma-build-jsx@https://registry.npmjs.org/recma-build-jsx/-/recma-build-jsx-1.0.0.tgz. Extracting by manifest.
+890 silly tarball no local data for markdown-extensions@https://registry.npmjs.org/markdown-extensions/-/markdown-extensions-2.0.0.tgz. Extracting by manifest.
+891 silly tarball no local data for hast-util-to-jsx-runtime@https://registry.npmjs.org/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz. Extracting by manifest.
+892 silly tarball no local data for estree-walker@https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz. Extracting by manifest.
+893 silly tarball no local data for estree-util-scope@https://registry.npmjs.org/estree-util-scope/-/estree-util-scope-1.0.0.tgz. Extracting by manifest.
+894 silly tarball no local data for estree-util-is-identifier-name@https://registry.npmjs.org/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz. Extracting by manifest.
+895 silly tarball no local data for recma-stringify@https://registry.npmjs.org/recma-stringify/-/recma-stringify-1.0.0.tgz. Extracting by manifest.
+896 silly tarball no local data for devlop@https://registry.npmjs.org/devlop/-/devlop-1.1.0.tgz. Extracting by manifest.
+897 silly tarball no local data for @types/mdx@https://registry.npmjs.org/@types/mdx/-/mdx-2.0.13.tgz. Extracting by manifest.
+898 silly tarball no local data for @types/estree-jsx@https://registry.npmjs.org/@types/estree-jsx/-/estree-jsx-1.0.5.tgz. Extracting by manifest.
+899 silly tarball no local data for collapse-white-space@https://registry.npmjs.org/collapse-white-space/-/collapse-white-space-2.1.0.tgz. Extracting by manifest.
+900 silly tarball no local data for @types/hast@https://registry.npmjs.org/@types/hast/-/hast-3.0.4.tgz. Extracting by manifest.
+901 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz. Extracting by manifest.
+902 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz. Extracting by manifest.
+903 silly tarball no local data for unist-util-visit@https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.1.0.tgz. Extracting by manifest.
+904 silly tarball no local data for vfile-matter@https://registry.npmjs.org/vfile-matter/-/vfile-matter-5.0.1.tgz. Extracting by manifest.
+905 silly tarball no local data for vfile@https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz. Extracting by manifest.
+906 silly tarball no local data for unist-util-remove@https://registry.npmjs.org/unist-util-remove/-/unist-util-remove-4.0.0.tgz. Extracting by manifest.
+907 silly tarball no local data for @mdx-js/react@https://registry.npmjs.org/@mdx-js/react/-/react-3.1.1.tgz. Extracting by manifest.
+908 silly tarball no local data for @mdx-js/mdx@https://registry.npmjs.org/@mdx-js/mdx/-/mdx-3.1.1.tgz. Extracting by manifest.
+909 silly tarball no local data for @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz. Extracting by manifest.
+910 silly tarball no local data for strip-bom-string@https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz. Extracting by manifest.
+911 silly tarball no local data for section-matter@https://registry.npmjs.org/section-matter/-/section-matter-1.0.0.tgz. Extracting by manifest.
+912 silly tarball no local data for next-mdx-remote@https://registry.npmjs.org/next-mdx-remote/-/next-mdx-remote-6.0.0.tgz. Extracting by manifest.
+913 silly tarball no local data for kind-of@https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz. Extracting by manifest.
+914 silly tarball no local data for gray-matter@https://registry.npmjs.org/gray-matter/-/gray-matter-4.0.3.tgz. Extracting by manifest.
+915 silly tarball no local data for @types/unist@https://registry.npmjs.org/@types/unist/-/unist-2.0.11.tgz. Extracting by manifest.
+916 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.2.tgz. Extracting by manifest.
+917 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz. Extracting by manifest.
+918 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 420ms (cache miss)
+919 http fetch GET 200 https://registry.npmjs.org/unist-util-visit-parents/-/unist-util-visit-parents-6.0.2.tgz 421ms (cache miss)
+920 http fetch GET 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 427ms (cache miss)
+921 http fetch GET 200 https://registry.npmjs.org/micromark-util-events-to-acorn/-/micromark-util-events-to-acorn-2.0.3.tgz 599ms (cache miss)
+922 http fetch GET 200 https://registry.npmjs.org/micromark-factory-mdx-expression/-/micromark-factory-mdx-expression-2.0.3.tgz 625ms (cache miss)
+923 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdxjs-esm/-/micromark-extension-mdxjs-esm-3.0.0.tgz 639ms (cache miss)
+924 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-md/-/micromark-extension-mdx-md-2.0.0.tgz 795ms (cache miss)
+925 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdxjs/-/micromark-extension-mdxjs-3.0.0.tgz 905ms (cache miss)
+926 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-expression/-/micromark-extension-mdx-expression-3.0.1.tgz 907ms (cache miss)
+927 http fetch GET 200 https://registry.npmjs.org/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-3.0.2.tgz 971ms (cache miss)
+928 http fetch GET 200 https://registry.npmjs.org/bail/-/bail-2.0.2.tgz 1027ms (cache miss)
+929 http fetch GET 200 https://registry.npmjs.org/character-entities-html4/-/character-entities-html4-2.1.0.tgz 1026ms (cache miss)
+930 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx/-/mdast-util-mdx-3.0.0.tgz 1024ms (cache miss)
+931 http fetch GET 200 https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-4.1.0.tgz 1174ms (cache miss)
+932 http fetch GET 200 https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz 1170ms (cache miss)
+933 http fetch GET 200 https://registry.npmjs.org/estree-util-attach-comments/-/estree-util-attach-comments-3.0.0.tgz 1172ms (cache miss)
+934 http fetch GET 200 https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz 1183ms (cache miss)
+935 http fetch GET 200 https://registry.npmjs.org/estree-util-visit/-/estree-util-visit-2.0.0.tgz 1204ms (cache miss)
+936 http fetch GET 200 https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 1226ms (cache miss)
+937 http fetch GET 200 https://registry.npmjs.org/inline-style-parser/-/inline-style-parser-0.2.7.tgz 1254ms (cache miss)
+938 http fetch GET 200 https://registry.npmjs.org/trough/-/trough-2.2.0.tgz 1303ms (cache miss)
+939 http fetch GET 200 https://registry.npmjs.org/esast-util-from-estree/-/esast-util-from-estree-2.0.0.tgz 1305ms (cache miss)
+940 http fetch GET 200 https://registry.npmjs.org/esast-util-from-js/-/esast-util-from-js-2.0.1.tgz 1309ms (cache miss)
+941 http fetch GET 200 https://registry.npmjs.org/astring/-/astring-1.9.0.tgz 1316ms (cache miss)
+942 http fetch GET 200 https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz 1340ms (cache miss)
+943 http fetch GET 200 https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz 1351ms (cache miss)
+944 http fetch GET 200 https://registry.npmjs.org/character-reference-invalid/-/character-reference-invalid-2.0.1.tgz 1346ms (cache miss)
+945 http fetch GET 200 https://registry.npmjs.org/is-decimal/-/is-decimal-2.0.1.tgz 1369ms (cache miss)
+946 http fetch GET 200 https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-2.0.1.tgz 1384ms (cache miss)
+947 http fetch GET 200 https://registry.npmjs.org/hast-util-to-estree/-/hast-util-to-estree-3.1.3.tgz 1394ms (cache miss)
+948 http fetch GET 200 https://registry.npmjs.org/recma-parse/-/recma-parse-1.0.0.tgz 1401ms (cache miss)
+949 http fetch GET 200 https://registry.npmjs.org/estree-util-build-jsx/-/estree-util-build-jsx-3.0.1.tgz 1402ms (cache miss)
+950 http fetch GET 200 https://registry.npmjs.org/estree-util-to-js/-/estree-util-to-js-2.0.0.tgz 1408ms (cache miss)
+951 http fetch GET 200 https://registry.npmjs.org/character-entities-legacy/-/character-entities-legacy-3.0.0.tgz 1446ms (cache miss)
+952 http fetch GET 200 https://registry.npmjs.org/is-alphanumerical/-/is-alphanumerical-2.0.1.tgz 1453ms (cache miss)
+953 http fetch GET 200 https://registry.npmjs.org/style-to-object/-/style-to-object-1.0.14.tgz 1474ms (cache miss)
+954 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz 1511ms (cache miss)
+955 http fetch GET 200 https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-2.0.1.tgz 1500ms (cache miss)
+956 http fetch GET 200 https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-2.0.1.tgz 1528ms (cache miss)
+957 http fetch GET 200 https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-2.0.1.tgz 1533ms (cache miss)
+958 http fetch GET 200 https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-2.0.1.tgz 1552ms (cache miss)
+959 http fetch GET 200 https://registry.npmjs.org/is-alphabetical/-/is-alphabetical-2.0.1.tgz 1553ms (cache miss)
+960 http fetch GET 200 https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-2.0.1.tgz 1565ms (cache miss)
+961 http fetch GET 200 https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-2.0.1.tgz 1568ms (cache miss)
+962 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-2.1.0.tgz 1640ms (cache miss)
+963 http fetch GET 200 https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-2.0.1.tgz 1668ms (cache miss)
+964 http fetch GET 200 https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-2.0.1.tgz 1668ms (cache miss)
+965 http fetch GET 200 https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-2.0.1.tgz 1677ms (cache miss)
+966 http fetch GET 200 https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-2.0.1.tgz 1685ms (cache miss)
+967 http fetch GET 200 https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-2.1.1.tgz 1685ms (cache miss)
+968 http fetch GET 200 https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-2.1.0.tgz 1697ms (cache miss)
+969 http fetch GET 200 https://registry.npmjs.org/zwitch/-/zwitch-2.0.4.tgz 1751ms (cache miss)
+970 http fetch GET 200 https://registry.npmjs.org/parse-entities/-/parse-entities-4.0.2.tgz 1778ms (cache miss)
+971 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.13.tgz 1785ms (cache miss)
+972 http fetch GET 200 https://registry.npmjs.org/unist-util-is/-/unist-util-is-6.0.1.tgz 1785ms (cache miss)
+973 http fetch GET 200 https://registry.npmjs.org/mdast-util-phrasing/-/mdast-util-phrasing-4.1.0.tgz 1803ms (cache miss)
+974 http fetch GET 200 https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz 1806ms (cache miss)
+975 http fetch GET 200 https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-2.0.1.tgz 1811ms (cache miss)
+976 http fetch GET 200 https://registry.npmjs.org/ccount/-/ccount-2.0.1.tgz 1874ms (cache miss)
+977 http fetch GET 200 https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz 1899ms (cache miss)
+978 http fetch GET 200 https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-2.0.1.tgz 1919ms (cache miss)
+979 http fetch GET 200 https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-2.0.2.tgz 1927ms (cache miss)
+980 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-2.0.1.tgz 1928ms (cache miss)
+981 http fetch GET 200 https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-2.0.1.tgz 1961ms (cache miss)
+982 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-2.0.2.tgz 1970ms (cache miss)
+983 http fetch GET 200 https://registry.npmjs.org/stringify-entities/-/stringify-entities-4.0.4.tgz 1988ms (cache miss)
+984 http fetch GET 200 https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-2.0.1.tgz 2002ms (cache miss)
+985 http fetch GET 200 https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.3.0.tgz 2032ms (cache miss)
+986 http fetch GET 200 https://registry.npmjs.org/@types/mdast/-/mdast-4.0.4.tgz 2036ms (cache miss)
+987 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-4.0.0.tgz 2040ms (cache miss)
+988 http fetch GET 200 https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-2.0.3.tgz 2077ms (cache miss)
+989 http fetch GET 200 https://registry.npmjs.org/vfile-message/-/vfile-message-4.0.3.tgz 2251ms (cache miss)
+990 http fetch GET 200 https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz 2339ms (cache miss)
+991 http fetch GET 200 https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz 2373ms (cache miss)
+992 http fetch GET 200 https://registry.npmjs.org/unist-util-position-from-estree/-/unist-util-position-from-estree-2.0.0.tgz 2372ms (cache miss)
+993 http fetch GET 200 https://registry.npmjs.org/@types/unist/-/unist-3.0.3.tgz 2375ms (cache miss)
+994 http fetch GET 200 https://registry.npmjs.org/unist-util-position/-/unist-util-position-5.0.0.tgz 2385ms (cache miss)
+995 http fetch GET 200 https://registry.npmjs.org/hast-util-whitespace/-/hast-util-whitespace-3.0.0.tgz 2381ms (cache miss)
+996 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdxjs-esm/-/mdast-util-mdxjs-esm-2.0.1.tgz 2399ms (cache miss)
+997 http fetch GET 200 https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz 2408ms (cache miss)
+998 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx-expression/-/mdast-util-mdx-expression-2.0.1.tgz 2413ms (cache miss)
+999 http fetch GET 200 https://registry.npmjs.org/mdast-util-mdx-jsx/-/mdast-util-mdx-jsx-3.2.0.tgz 2472ms (cache miss)
+1000 http fetch GET 200 https://registry.npmjs.org/remark-parse/-/remark-parse-11.0.0.tgz 2625ms (cache miss)
+1001 http fetch GET 200 https://registry.npmjs.org/markdown-extensions/-/markdown-extensions-2.0.0.tgz 2676ms (cache miss)
+1002 http fetch GET 200 https://registry.npmjs.org/@types/mdx/-/mdx-2.0.13.tgz 2706ms (cache miss)
+1003 http fetch GET 200 https://registry.npmjs.org/@types/estree-jsx/-/estree-jsx-1.0.5.tgz 2745ms (cache miss)
+1004 http fetch GET 200 https://registry.npmjs.org/collapse-white-space/-/collapse-white-space-2.1.0.tgz 2758ms (cache miss)
+1005 http fetch GET 200 https://registry.npmjs.org/devlop/-/devlop-1.1.0.tgz 2762ms (cache miss)
+1006 http fetch GET 200 https://registry.npmjs.org/unified/-/unified-11.0.5.tgz 2776ms (cache miss)
+1007 http fetch GET 200 https://registry.npmjs.org/rehype-recma/-/rehype-recma-1.0.0.tgz 2773ms (cache miss)
+1008 http fetch GET 200 https://registry.npmjs.org/recma-jsx/-/recma-jsx-1.0.1.tgz 2780ms (cache miss)
+1009 http fetch GET 200 https://registry.npmjs.org/recma-build-jsx/-/recma-build-jsx-1.0.0.tgz 2792ms (cache miss)
+1010 http fetch GET 200 https://registry.npmjs.org/unist-util-remove/-/unist-util-remove-4.0.0.tgz 2780ms (cache miss)
+1011 http fetch GET 200 https://registry.npmjs.org/@types/hast/-/hast-3.0.4.tgz 2786ms (cache miss)
+1012 http fetch GET 200 https://registry.npmjs.org/remark-rehype/-/remark-rehype-11.1.2.tgz 2819ms (cache miss)
+1013 http fetch GET 200 https://registry.npmjs.org/recma-stringify/-/recma-stringify-1.0.0.tgz 2811ms (cache miss)
+1014 http fetch GET 200 https://registry.npmjs.org/section-matter/-/section-matter-1.0.0.tgz 2903ms (cache miss)
+1015 http fetch GET 200 https://registry.npmjs.org/estree-util-scope/-/estree-util-scope-1.0.0.tgz 2946ms (cache miss)
+1016 http fetch GET 200 https://registry.npmjs.org/estree-util-is-identifier-name/-/estree-util-is-identifier-name-3.0.0.tgz 2948ms (cache miss)
+1017 http fetch GET 200 https://registry.npmjs.org/hast-util-to-jsx-runtime/-/hast-util-to-jsx-runtime-2.3.6.tgz 2951ms (cache miss)
+1018 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz 2955ms (cache miss)
+1019 http fetch GET 200 https://registry.npmjs.org/@types/unist/-/unist-2.0.11.tgz 3097ms (cache miss)
+1020 http fetch GET 200 https://registry.npmjs.org/vfile-matter/-/vfile-matter-5.0.1.tgz 3176ms (cache miss)
+1021 http fetch GET 200 https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz 3172ms (cache miss)
+1022 http fetch GET 200 https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-5.1.0.tgz 3180ms (cache miss)
+1023 http fetch GET 200 https://registry.npmjs.org/remark-mdx/-/remark-mdx-3.1.1.tgz 3197ms (cache miss)
+1024 http fetch GET 200 https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz 3179ms (cache miss)
+1025 http fetch GET 200 https://registry.npmjs.org/estree-walker/-/estree-walker-3.0.3.tgz 3195ms (cache miss)
+1026 http fetch GET 200 https://registry.npmjs.org/@mdx-js/react/-/react-3.1.1.tgz 3187ms (cache miss)
+1027 http fetch GET 200 https://registry.npmjs.org/strip-bom-string/-/strip-bom-string-1.0.0.tgz 3191ms (cache miss)
+1028 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz 3207ms (cache miss)
+1029 http fetch GET 200 https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.21.tgz 3238ms (cache miss)
+1030 http fetch GET 200 https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 3260ms (cache miss)
+1031 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.7.6.tgz 3339ms (cache miss)
+1032 http fetch GET 200 https://registry.npmjs.org/gray-matter/-/gray-matter-4.0.3.tgz 3426ms (cache miss)
+1033 http fetch GET 200 https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-2.0.3.tgz 3521ms (cache miss)
+1034 http fetch GET 200 https://registry.npmjs.org/vfile/-/vfile-6.0.3.tgz 3509ms (cache miss)
+1035 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz 3555ms (cache miss)
+1036 http fetch GET 200 https://registry.npmjs.org/next-mdx-remote/-/next-mdx-remote-6.0.0.tgz 3573ms (cache miss)
+1037 http fetch GET 200 https://registry.npmjs.org/micromark/-/micromark-4.0.2.tgz 3626ms (cache miss)
+1038 http fetch GET 200 https://registry.npmjs.org/property-information/-/property-information-7.1.0.tgz 3649ms (cache miss)
+1039 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.2.tgz 3701ms (cache miss)
+1040 http fetch GET 200 https://registry.npmjs.org/@mdx-js/mdx/-/mdx-3.1.1.tgz 3738ms (cache miss)
+1041 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-markdown/-/mdast-util-to-markdown-2.1.2.tgz 3837ms (cache miss)
+1042 silly ADD node_modules/sprintf-js
+1043 silly ADD node_modules/esprima
+1044 silly ADD node_modules/yaml
+1045 silly ADD node_modules/unist-util-visit-parents
+1046 silly ADD node_modules/trough
+1047 silly ADD node_modules/is-plain-obj
+1048 silly ADD node_modules/extend
+1049 silly ADD node_modules/bail
+1050 silly ADD node_modules/inline-style-parser
+1051 silly ADD node_modules/style-to-object
+1052 silly ADD node_modules/character-entities-html4
+1053 silly ADD node_modules/is-extendable
+1054 silly ADD node_modules/extend-shallow
+1055 silly ADD node_modules/trim-lines
+1056 silly ADD node_modules/mdast-util-to-hast
+1057 silly ADD node_modules/micromark-util-events-to-acorn
+1058 silly ADD node_modules/micromark-factory-mdx-expression
+1059 silly ADD node_modules/micromark-extension-mdxjs-esm
+1060 silly ADD node_modules/micromark-extension-mdx-md
+1061 silly ADD node_modules/micromark-extension-mdx-jsx
+1062 silly ADD node_modules/micromark-extension-mdx-expression
+1063 silly ADD node_modules/micromark-extension-mdxjs
+1064 silly ADD node_modules/mdast-util-mdx
+1065 silly ADD node_modules/estree-util-attach-comments
+1066 silly ADD node_modules/hast-util-to-estree
+1067 silly ADD node_modules/estree-util-visit
+1068 silly ADD node_modules/esast-util-from-estree
+1069 silly ADD node_modules/esast-util-from-js
+1070 silly ADD node_modules/astring
+1071 silly ADD node_modules/recma-parse
+1072 silly ADD node_modules/estree-util-to-js
+1073 silly ADD node_modules/estree-util-build-jsx
+1074 silly ADD node_modules/is-alphabetical
+1075 silly ADD node_modules/is-hexadecimal
+1076 silly ADD node_modules/is-decimal
+1077 silly ADD node_modules/is-alphanumerical
+1078 silly ADD node_modules/character-reference-invalid
+1079 silly ADD node_modules/character-entities-legacy
+1080 silly ADD node_modules/micromark-util-html-tag-name
+1081 silly ADD node_modules/micromark-factory-whitespace
+1082 silly ADD node_modules/micromark-factory-title
+1083 silly ADD node_modules/micromark-factory-label
+1084 silly ADD node_modules/micromark-factory-destination
+1085 silly ADD node_modules/@types/ms
+1086 silly ADD node_modules/micromark-util-subtokenize
+1087 silly ADD node_modules/micromark-util-sanitize-uri
+1088 silly ADD node_modules/micromark-util-resolve-all
+1089 silly ADD node_modules/micromark-util-encode
+1090 silly ADD node_modules/micromark-util-combine-extensions
+1091 silly ADD node_modules/micromark-util-chunked
+1092 silly ADD node_modules/micromark-util-character
+1093 silly ADD node_modules/micromark-factory-space
+1094 silly ADD node_modules/micromark-core-commonmark
+1095 silly ADD node_modules/@types/debug
+1096 silly ADD node_modules/unist-util-is
+1097 silly ADD node_modules/zwitch
+1098 silly ADD node_modules/micromark-util-classify-character
+1099 silly ADD node_modules/mdast-util-phrasing
+1100 silly ADD node_modules/longest-streak
+1101 silly ADD node_modules/stringify-entities
+1102 silly ADD node_modules/parse-entities
+1103 silly ADD node_modules/parse-entities/node_modules/@types/unist
+1104 silly ADD node_modules/ccount
+1105 silly ADD node_modules/character-entities
+1106 silly ADD node_modules/micromark-util-types
+1107 silly ADD node_modules/micromark-util-symbol
+1108 silly ADD node_modules/micromark-util-normalize-identifier
+1109 silly ADD node_modules/micromark-util-decode-string
+1110 silly ADD node_modules/micromark-util-decode-numeric-character-reference
+1111 silly ADD node_modules/micromark
+1112 silly ADD node_modules/mdast-util-to-string
+1113 silly ADD node_modules/decode-named-character-reference
+1114 silly ADD node_modules/mdast-util-to-markdown
+1115 silly ADD node_modules/mdast-util-from-markdown
+1116 silly ADD node_modules/@types/mdast
+1117 silly ADD node_modules/vfile-message
+1118 silly ADD node_modules/unist-util-position
+1119 silly ADD node_modules/style-to-js
+1120 silly ADD node_modules/space-separated-tokens
+1121 silly ADD node_modules/property-information
+1122 silly ADD node_modules/mdast-util-mdxjs-esm
+1123 silly ADD node_modules/mdast-util-mdx-jsx
+1124 silly ADD node_modules/mdast-util-mdx-expression
+1125 silly ADD node_modules/hast-util-whitespace
+1126 silly ADD node_modules/comma-separated-tokens
+1127 silly ADD node_modules/dequal
+1128 silly ADD node_modules/@types/unist
+1129 silly ADD node_modules/unist-util-stringify-position
+1130 silly ADD node_modules/unist-util-position-from-estree
+1131 silly ADD node_modules/unified
+1132 silly ADD node_modules/source-map
+1133 silly ADD node_modules/remark-rehype
+1134 silly ADD node_modules/remark-parse
+1135 silly ADD node_modules/remark-mdx
+1136 silly ADD node_modules/rehype-recma
+1137 silly ADD node_modules/recma-stringify
+1138 silly ADD node_modules/recma-jsx
+1139 silly ADD node_modules/recma-build-jsx
+1140 silly ADD node_modules/markdown-extensions
+1141 silly ADD node_modules/hast-util-to-jsx-runtime
+1142 silly ADD node_modules/estree-walker
+1143 silly ADD node_modules/estree-util-scope
+1144 silly ADD node_modules/estree-util-is-identifier-name
+1145 silly ADD node_modules/devlop
+1146 silly ADD node_modules/collapse-white-space
+1147 silly ADD node_modules/@types/mdx
+1148 silly ADD node_modules/@types/hast
+1149 silly ADD node_modules/@types/estree-jsx
+1150 silly ADD node_modules/@types/estree
+1151 silly ADD node_modules/@babel/helper-validator-identifier
+1152 silly ADD node_modules/vfile-matter
+1153 silly ADD node_modules/vfile
+1154 silly ADD node_modules/unist-util-visit
+1155 silly ADD node_modules/unist-util-remove
+1156 silly ADD node_modules/@mdx-js/react
+1157 silly ADD node_modules/@mdx-js/mdx
+1158 silly ADD node_modules/@babel/code-frame
+1159 silly ADD node_modules/strip-bom-string
+1160 silly ADD node_modules/section-matter
+1161 silly ADD node_modules/kind-of
+1162 silly ADD node_modules/next-mdx-remote
+1163 silly ADD node_modules/gray-matter
+1164 silly ADD node_modules/gray-matter/node_modules/argparse
+1165 silly ADD node_modules/gray-matter/node_modules/js-yaml
+1166 verbose cwd C:\Users\Administrator\project\myhub
+1167 verbose os Windows_NT 10.0.19045
+1168 verbose node v24.15.0
+1169 verbose npm  v11.12.1
+1170 notice
+1170 notice New minor version of npm available! 11.12.1 -> 11.14.0
+1170 notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.0
+1170 notice To update run: npm install -g npm@11.14.0
+1170 notice  { force: true, Symbol(proc-log.meta): true }
+1171 verbose exit 0
+1172 info ok

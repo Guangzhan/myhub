@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(node *)",
+      "Bash(chmod +x *)",
+      "Bash(/c/Users/Administrator/project/myhub/.claude/hooks/pre-write-check.sh)",
+      "Bash(echo \"exit code: $?\")",
+      "Bash(python3 -c \"import sys, json; data = json.load\\(sys.stdin\\); print\\(data\\)\")",
+      "Bash(echo '{\"file_path\": \"next.config.mjs\"}')",
+      "Bash(python3 -c \"import sys, json; data = json.load\\(open\\('C:/tmp/test.json'\\)\\); print\\(data\\)\")",
+      "Bash(/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps/python3 *)",
+      "Bash(py -3 --version)",
+      "Read(//c/Users/Administrator/AppData/Local/Microsoft/WindowsApps/**)",
+      "Bash(ls -la /c/Python*/python.exe)",
+      "Bash(find /c -name \"python.exe\" -type f)",
+      "Bash(where py *)",
+      "Bash(bash /c/Users/Administrator/project/myhub/.claude/hooks/pre-write-check.sh)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git rm *)"
+    ]
+  }
+}

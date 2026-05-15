@@ -1,0 +1,11 @@
+<svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="220" rx="24" fill="#1C1917"/>
+  <rect x="28" y="28" width="264" height="164" rx="18" fill="#292524" stroke="#F59E0B" stroke-opacity="0.45"/>
+  <path d="M160 68L212 156H108L160 68Z" fill="#F59E0B"/>
+  <rect x="154" y="96" width="12" height="34" rx="6" fill="#1C1917"/>
+  <circle cx="160" cy="143" r="7" fill="#1C1917"/>
+  <rect x="34" y="40" width="74" height="14" rx="7" fill="#57534E"/>
+  <rect x="34" y="60" width="48" height="10" rx="5" fill="#44403C"/>
+  <rect x="214" y="44" width="52" height="12" rx="6" fill="#78350F"/>
+  <text x="28" y="210" fill="#FEF3C7" font-family="Arial, sans-serif" font-size="22" font-weight="700">Warning Display</text>
+</svg>

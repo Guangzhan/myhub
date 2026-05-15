@@ -1,0 +1,9 @@
+<svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="220" rx="24" fill="#0F172A"/>
+  <rect x="24" y="28" width="272" height="164" rx="18" fill="#132437" stroke="#2DD4BF" stroke-opacity="0.4"/>
+  <path d="M44 154C68.6667 140.667 93.3333 134 118 134C142.667 134 167.333 140.667 192 154C216.667 167.333 241.333 174 266 174" stroke="#5EEAD4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M44 127C65.3333 102.333 86.6667 90 108 90C129.333 90 150.667 102.333 172 127C193.333 151.667 214.667 164 236 164C257.333 164 267.333 154.667 276 136" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="108" cy="90" r="7" fill="#86EFAC"/>
+  <circle cx="172" cy="127" r="7" fill="#86EFAC"/>
+  <text x="24" y="210" fill="#D1FAE5" font-family="Arial, sans-serif" font-size="22" font-weight="700">Realtime Monitoring</text>
+</svg>

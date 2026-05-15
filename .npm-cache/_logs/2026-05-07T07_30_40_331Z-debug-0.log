@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Administrator\project\myhub\.npmrc
+5 silly config load:file:C:\Users\Administrator\.npmrc
+6 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @tailwindcss/typography
+8 verbose argv "install" "--save-dev" "@tailwindcss/typography" "--legacy-peer-deps" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:c:\Users\Administrator\project\myhub\.npm-cache\_logs\2026-05-07T07_30_40_331Z-
+10 verbose logfile c:\Users\Administrator\project\myhub\.npm-cache\_logs\2026-05-07T07_30_40_331Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @tailwindcss/typography@*
+15 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2ftypography cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2ftypography 1249ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2ftypography set size:undefined disposed:false
+18 silly placeDep ROOT @tailwindcss/typography@0.5.19 OK for: myhub@0.1.0 want: *
+19 silly fetch manifest postcss-selector-parser@6.0.10
+20 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 304ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/postcss-selector-parser set size:undefined disposed:false
+23 silly placeDep node_modules/@tailwindcss/typography postcss-selector-parser@6.0.10 OK for: @tailwindcss/typography@0.5.19 want: 6.0.10
+24 silly reify moves {}
+25 http cache @tailwindcss/typography@https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.19.tgz 0ms (cache hit)
+26 http cache postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz 0ms (cache hit)
+27 silly tarball no local data for @tailwindcss/typography@https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.19.tgz. Extracting by manifest.
+28 silly tarball no local data for postcss-selector-parser@https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/typography/-/typography-0.5.19.tgz 604ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz 1209ms (cache miss)
+31 silly ADD node_modules/@tailwindcss/typography
+32 silly ADD node_modules/@tailwindcss/typography/node_modules/postcss-selector-parser
+33 verbose cwd C:\Users\Administrator\project\myhub
+34 verbose os Windows_NT 10.0.19045
+35 verbose node v24.15.0
+36 verbose npm  v11.12.1
+37 verbose exit 0
+38 info ok
