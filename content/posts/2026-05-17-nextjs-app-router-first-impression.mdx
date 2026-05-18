@@ -1,0 +1,36 @@
+---
+title: Next.js 14 App Router 初体验
+date: 2026-05-17
+description: 总结我从 Pages Router 迁移到 App Router 的实际体验，包括惊喜和踩坑记录。
+---
+
+# Next.js 14 App Router 初体验
+
+最近把个人网站从 Pages Router 迁移到了 App Router，整个过程比预想的顺利，但也踩了几个坑。记录下来供有同样计划的同学参考。
+
+## 最大的改变：服务端优先
+
+App Router 默认所有组件都是服务端组件，客户端渲染需要显式用 `"use client"` 声明。这个设计让我不得不重新思考数据获取的时机——很多之前放在 `useEffect` 里的逻辑，现在可以直接在服务器端完成，减少了客户端的 JavaScript 体积。
+
+## 布局系统更灵活
+
+嵌套布局现在可以按目录层级自动组合。`layout.tsx` 定义父布局，子目录下的 `layout.tsx` 继承并扩展它。这比 Pages Router 的 HOC 模式直观很多。博客列表页和详情页共享同一个布局，只需要在一个地方改一处就行。
+
+## 值得注意的细节
+
+**缓存行为变了**。`fetch` 请求默认不缓存，如果你需要静态效果，要额外配置 `cache: 'force-cache'` 或使用 `generateStaticParams`。我因为没注意到这个细节，部署后发现博客详情页每次都在实时请求数据。
+
+**图片组件升级**。`next/image` 在 App Router 里有了更多优化选项，但项目截图类的图片如果来自外部，需要在 `next.config.mjs` 里配置 `remotePatterns`。
+
+## 迁移建议
+
+如果你的项目不复杂，迁移收益明显。如果是大型存量项目，建议先在一个小页面试点，确认团队理解新范式后再全面铺开。官方文档的 Migration Guide 写得比较详细，值得通读一遍。
+
+总的来说，App Router 代表了 Next.js 的未来方向，值得投入时间学习。
+
+## 关键要点
+
+- 组件默认服务端渲染，需要客户端渲染时加 `"use client"`
+- `fetch` 默认不缓存，静态内容记得加 `cache: 'force-cache'`
+- 外部图片需要在 `next.config.mjs` 配置 `remotePatterns`
+- 嵌套布局按目录自动组合，比 HOC 模式更直观
